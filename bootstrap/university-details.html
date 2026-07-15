@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BHE UNI — University Details</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="styles.css?v=8" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="container-xxl px-3 px-sm-4">
+    <div class="d-flex align-items-center justify-content-between" style="height:76px;">
+      <a href="#top" class="d-flex align-items-center flex-shrink-0">
+        <img src="assets/bhe-uni-logo.png" alt="BHE UNI" style="height:36px;width:auto;" />
+      </a>
+
+      <nav class="d-none d-lg-flex align-items-center">
+        <ul class="bhe-nav">
+          <li><a href="https://bheuni.io/" target="_blank" rel="noopener" class="nav-link-bhe">Home</a></li>
+          <li class="bhe-drop">
+            <a href="we-are.html" class="nav-link-bhe">About Us <i class="bi bi-chevron-down" style="font-size:13px;opacity:.7;"></i></a>
+            <ul class="bhe-menu">
+              <li><a href="we-are.html">Who We Are</a></li>
+              <li><a href="team.html">Our Team</a></li>
+              <li><a href="https://bheuni.io/testimonial" target="_blank" rel="noopener">Testimonials</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li><a href="author.html">Author</a></li>
+              <li><a href="director.html">Director</a></li>
+            </ul>
+          </li>
+          <li class="bhe-drop">
+            <a href="https://bheuni.io/study-abroad" target="_blank" rel="noopener" class="nav-link-bhe">Study Abroad <i class="bi bi-chevron-down" style="font-size:13px;opacity:.7;"></i></a>
+            <ul class="bhe-menu">
+              <li><a href="all-courses.html">All Courses</a></li>
+              <li class="bhe-sub">
+                <a href="https://bheuni.io/study-abroad" target="_blank" rel="noopener">Country <i class="bi bi-chevron-right"></i></a>
+                <ul class="bhe-submenu">
+                  <li><a href="https://bheuni.io/study-in-uk" target="_blank" rel="noopener">Study in UK</a></li>
+                  <li><a href="https://bheuni.io/study-in-usa" target="_blank" rel="noopener">Study in USA</a></li>
+                  <li><a href="https://bheuni.io/study-in-canada" target="_blank" rel="noopener">Study in Canada</a></li>
+                  <li><a href="https://bheuni.io/study-in-australia" target="_blank" rel="noopener">Study in Australia</a></li>
+                  <li><a href="https://bheuni.io/study-in-new-zealand" target="_blank" rel="noopener">Study in New Zealand</a></li>
+                  <li><a href="https://bheuni.io/study-in-ireland" target="_blank" rel="noopener">Study in Ireland</a></li>
+                  <li><a href="https://bheuni.io/study-in-china" target="_blank" rel="noopener">Study in China</a></li>
+                </ul>
+              </li>
+              <li><a href="universities.html">University</a></li>
+              <li class="bhe-sub">
+                <a href="#">Courses <i class="bi bi-chevron-right"></i></a>
+                <ul class="bhe-submenu">
+                  <li><a href="all-courses.html?level=Undergraduate" target="_blank" rel="noopener">Undergraduate</a></li>
+                  <li><a href="all-courses.html?level=Postgraduate" target="_blank" rel="noopener">Postgraduate</a></li>
+                  <li><a href="all-courses.html?level=Graduate" target="_blank" rel="noopener">PhD / Research</a></li>
+                  <li><a href="all-courses.html?level=Foundation" target="_blank" rel="noopener">Foundation</a></li>
+                </ul>
+              </li>
+              <li class="bhe-sub">
+                <a href="https://bheuni.io/scholarships" target="_blank" rel="noopener">Scholarships <i class="bi bi-chevron-right"></i></a>
+                <ul class="bhe-submenu">
+                  <li><a href="https://bheuni.io/scholarships-in-uk" target="_blank" rel="noopener">Scholarship in UK</a></li>
+                  <li><a href="https://bheuni.io/scholarships-in-usa" target="_blank" rel="noopener">Scholarship in USA</a></li>
+                  <li><a href="https://bheuni.io/scholarships-in-canada" target="_blank" rel="noopener">Scholarship in Canada</a></li>
+                  <li><a href="https://bheuni.io/scholarships-in-australia" target="_blank" rel="noopener">Scholarship in Australia</a></li>
+                  <li><a href="https://bheuni.io/scholarships-in-ireland" target="_blank" rel="noopener">Scholarship in Ireland</a></li>
+                  <li><a href="https://bheuni.io/scholarships-in-new-zealand" target="_blank" rel="noopener">Scholarship in New Zealand</a></li>
+                  <li><a href="https://bheuni.io/scholarships-in-china" target="_blank" rel="noopener">Scholarship in China</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="bhe-drop">
+            <a href="https://bheuni.io/services" target="_blank" rel="noopener" class="nav-link-bhe">Services <i class="bi bi-chevron-down" style="font-size:13px;opacity:.7;"></i></a>
+            <ul class="bhe-menu">
+              <li><a href="immigration-visa-assistance.html">Visa &amp; Immigration Assistance</a></li>
+              <li><a href="https://bheuni.io/accomodation" target="_blank" rel="noopener">Student Accommodation</a></li>
+              <li><a href="international-student-support.html">International Student Support</a></li>
+              <li class="bhe-sub">
+                <a href="https://bheuni.io/eu-home-students" target="_blank" rel="noopener">EU &amp; Home Student Guidance <i class="bi bi-chevron-right"></i></a>
+                <ul class="bhe-submenu">
+                  <li><a href="https://bheuni.io/first-loan" target="_blank" rel="noopener">First Degree Loan</a></li>
+                  <li><a href="https://bheuni.io/second-loan" target="_blank" rel="noopener">Second Degree Loan</a></li>
+                </ul>
+              </li>
+              <li><a href="become-an-agent.html">Become an Agent</a></li>
+            </ul>
+          </li>
+          <li class="bhe-drop">
+            <a href="https://bheuni.io/blogs" target="_blank" rel="noopener" class="nav-link-bhe">Resources <i class="bi bi-chevron-down" style="font-size:13px;opacity:.7;"></i></a>
+            <ul class="bhe-menu">
+              <li><a href="https://bheuni.io/blogs" target="_blank" rel="noopener">Blogs</a></li>
+              <li><a href="https://bheuni.io/ielts" target="_blank" rel="noopener">IELTS</a></li>
+              <li><a href="https://bheuni.io/duolingo" target="_blank" rel="noopener">Duolingo</a></li>
+              <li><a href="https://bheuni.io/toefl" target="_blank" rel="noopener">TOEFL</a></li>
+              <li><a href="https://bheuni.io/pte" target="_blank" rel="noopener">PTE</a></li>
+              <li><a href="https://bheuni.io/oietc" target="_blank" rel="noopener">OIETC / Oxford ELLT</a></li>
+              <li><a href="https://bheuni.io/moi" target="_blank" rel="noopener">MOI</a></li>
+              <li><a href="https://bheuni.io/videos" target="_blank" rel="noopener">Videos</a></li>
+              <li><a href="https://bheuni.io/news-event" target="_blank" rel="noopener">News &amp; Events</a></li>
+              <li><a href="https://bheuni.io/study-guide-choosing-education-agent" target="_blank" rel="noopener">Student Guide</a></li>
+            </ul>
+          </li>
+          <li class="bhe-drop">
+            <a href="#" class="nav-link-bhe">Locations <i class="bi bi-chevron-down" style="font-size:13px;opacity:.7;"></i></a>
+            <ul class="bhe-menu">
+              <li class="bhe-sub">
+                <a href="https://bheuni.io/bangladesh" target="_blank" rel="noopener">Bangladesh <i class="bi bi-chevron-right"></i></a>
+                <ul class="bhe-submenu">
+                  <li><a href="https://bheuni.io/study-abroad-consultants-in-dhaka" target="_blank" rel="noopener">Dhaka Office</a></li>
+                  <li><a href="https://bheuni.io/study-abroad-consultants-in-sylhet" target="_blank" rel="noopener">Sylhet Office</a></li>
+                </ul>
+              </li>
+              <li class="bhe-sub">
+                <a href="https://bheuni.io/united-kingdom" target="_blank" rel="noopener">United Kingdom <i class="bi bi-chevron-right"></i></a>
+                <ul class="bhe-submenu">
+                  <li><a href="https://bheuni.io/london-office" target="_blank" rel="noopener">London Office (Head Office)</a></li>
+                  <li><a href="https://bheuni.io/manchester-office" target="_blank" rel="noopener">Manchester Office</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact.html" class="nav-link-bhe">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="d-flex align-items-center gap-3 flex-shrink-0">
+        <div class="icon-pill d-none d-sm-inline-flex">
+          <button class="icon-btn" aria-label="Search"><i class="bi bi-search" style="font-size:18px;"></i></button>
+          <button class="icon-btn" aria-label="Apply" data-scroll="#apply"><i class="bi bi-file-earmark-check" style="font-size:18px;"></i></button>
+          <div class="position-relative">
+            <button class="icon-btn" id="accountBtn" aria-label="Account"><i class="bi bi-person" style="font-size:19px;"></i></button>
+            <!-- Student portal popup -->
+            <div class="portal-pop" id="portalPop">
+              <div class="portal-card">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="flex-grow-1">
+                    <h3 class="font-display fw-semi mb-1" style="font-size:21px;">Student Portal</h3>
+                    <p class="mb-0" style="font-size:14.5px;line-height:1.5;color:#64748b;">Login or Sign up to access the <span class="fw-semi text-brand">BHE Uni</span> student portal</p>
+                  </div>
+                  <div class="portal-art">
+                    <svg viewBox="0 0 64 64" width="58" height="58" fill="none">
+                      <path d="M32 12 8 21l24 9 24-9-24-9z" fill="#1f3a8a"/>
+                      <path d="M18 27v9c0 3 6.3 5.5 14 5.5S46 39 46 36v-9l-14 5.2L18 27z" fill="#2a55cf"/>
+                      <path d="M56 21v10" stroke="#1f3a8a" stroke-width="2.2" stroke-linecap="round"/>
+                      <circle cx="56" cy="33" r="2.4" fill="#f47b20"/>
+                      <circle cx="32" cy="46" r="10" fill="#fcd9bd"/>
+                      <path d="M22 56a10 10 0 0 1 20 0z" fill="#f47b20"/>
+                    </svg>
+                  </div>
+                </div>
+                <div class="d-flex gap-3 mt-4">
+                  <button class="btn btn-ghost-navy flex-fill py-2" data-auth="signin">Sign in</button>
+                  <button class="btn btn-brand flex-fill py-2" data-auth="signup">Sign up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn p-2 d-lg-none" id="menuToggle" aria-label="Menu"><i class="bi bi-list" style="font-size:26px;color:var(--navy-900);"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- mobile menu -->
+  <div class="d-lg-none border-top bg-white px-3 py-2" id="mobileMenu" style="display:none!important;">
+    <a href="https://bheuni.io/" target="_blank" rel="noopener" class="d-block py-2 px-2 rounded nav-link-bhe">Home</a>
+      <details class="m-grp">
+        <summary>About Us <i class="bi bi-chevron-down"></i></summary>
+        <div class="m-sub">
+          <a href="we-are.html">Who We Are</a>
+          <a href="team.html">Our Team</a>
+          <a href="https://bheuni.io/testimonial" target="_blank" rel="noopener">Testimonials</a>
+          <a href="careers.html">Careers</a>
+          <a href="author.html">Author</a>
+          <a href="director.html">Director</a>
+        </div>
+      </details>
+      <details class="m-grp">
+        <summary>Study Abroad <i class="bi bi-chevron-down"></i></summary>
+        <div class="m-sub">
+          <a href="https://bheuni.io/study-abroad" target="_blank" rel="noopener">All Study Abroad</a>
+          <a href="all-courses.html">All Courses</a>
+          <details class="m-grp"><summary>Country <i class="bi bi-chevron-down"></i></summary><div class="m-sub2">
+            <a href="https://bheuni.io/study-in-uk" target="_blank" rel="noopener">Study in UK</a>
+            <a href="https://bheuni.io/study-in-usa" target="_blank" rel="noopener">Study in USA</a>
+            <a href="https://bheuni.io/study-in-canada" target="_blank" rel="noopener">Study in Canada</a>
+            <a href="https://bheuni.io/study-in-australia" target="_blank" rel="noopener">Study in Australia</a>
+            <a href="https://bheuni.io/study-in-new-zealand" target="_blank" rel="noopener">Study in New Zealand</a>
+            <a href="https://bheuni.io/study-in-ireland" target="_blank" rel="noopener">Study in Ireland</a>
+            <a href="https://bheuni.io/study-in-china" target="_blank" rel="noopener">Study in China</a>
+          </div></details>
+          <a href="universities.html">University</a>
+          <details class="m-grp"><summary>Courses <i class="bi bi-chevron-down"></i></summary><div class="m-sub2">
+            <a href="all-courses.html?level=Undergraduate" target="_blank" rel="noopener">Undergraduate</a>
+            <a href="all-courses.html?level=Postgraduate" target="_blank" rel="noopener">Postgraduate</a>
+            <a href="all-courses.html?level=Graduate" target="_blank" rel="noopener">PhD / Research</a>
+            <a href="all-courses.html?level=Foundation" target="_blank" rel="noopener">Foundation</a>
+          </div></details>
+          <details class="m-grp"><summary>Scholarships <i class="bi bi-chevron-down"></i></summary><div class="m-sub2">
+            <a href="https://bheuni.io/scholarships-in-uk" target="_blank" rel="noopener">Scholarship in UK</a>
+            <a href="https://bheuni.io/scholarships-in-usa" target="_blank" rel="noopener">Scholarship in USA</a>
+            <a href="https://bheuni.io/scholarships-in-canada" target="_blank" rel="noopener">Scholarship in Canada</a>
+            <a href="https://bheuni.io/scholarships-in-australia" target="_blank" rel="noopener">Scholarship in Australia</a>
+            <a href="https://bheuni.io/scholarships-in-ireland" target="_blank" rel="noopener">Scholarship in Ireland</a>
+            <a href="https://bheuni.io/scholarships-in-new-zealand" target="_blank" rel="noopener">Scholarship in New Zealand</a>
+            <a href="https://bheuni.io/scholarships-in-china" target="_blank" rel="noopener">Scholarship in China</a>
+          </div></details>
+        </div>
+      </details>
+      <details class="m-grp">
+        <summary>Services <i class="bi bi-chevron-down"></i></summary>
+        <div class="m-sub">
+          <a href="https://bheuni.io/services" target="_blank" rel="noopener">All Services</a>
+          <a href="immigration-visa-assistance.html">Visa & Immigration Assistance</a>
+          <a href="https://bheuni.io/accomodation" target="_blank" rel="noopener">Student Accommodation</a>
+          <a href="international-student-support.html">International Student Support</a>
+          <details class="m-grp"><summary>EU & Home Student Guidance <i class="bi bi-chevron-down"></i></summary><div class="m-sub2">
+            <a href="https://bheuni.io/first-loan" target="_blank" rel="noopener">First Degree Loan</a>
+            <a href="https://bheuni.io/second-loan" target="_blank" rel="noopener">Second Degree Loan</a>
+          </div></details>
+          <a href="become-an-agent.html">Become an Agent</a>
+        </div>
+      </details>
+      <details class="m-grp">
+        <summary>Resources <i class="bi bi-chevron-down"></i></summary>
+        <div class="m-sub">
+          <a href="https://bheuni.io/blogs" target="_blank" rel="noopener">Blogs</a>
+          <a href="https://bheuni.io/ielts" target="_blank" rel="noopener">IELTS</a>
+          <a href="https://bheuni.io/duolingo" target="_blank" rel="noopener">Duolingo</a>
+          <a href="https://bheuni.io/toefl" target="_blank" rel="noopener">TOEFL</a>
+          <a href="https://bheuni.io/pte" target="_blank" rel="noopener">PTE</a>
+          <a href="https://bheuni.io/oietc" target="_blank" rel="noopener">OIETC / Oxford ELLT</a>
+          <a href="https://bheuni.io/moi" target="_blank" rel="noopener">MOI</a>
+          <a href="https://bheuni.io/videos" target="_blank" rel="noopener">Videos</a>
+          <a href="https://bheuni.io/news-event" target="_blank" rel="noopener">News & Events</a>
+          <a href="https://bheuni.io/study-guide-choosing-education-agent" target="_blank" rel="noopener">Student Guide</a>
+        </div>
+      </details>
+      <details class="m-grp">
+        <summary>Locations <i class="bi bi-chevron-down"></i></summary>
+        <div class="m-sub">
+          <details class="m-grp"><summary>Bangladesh <i class="bi bi-chevron-down"></i></summary><div class="m-sub2">
+            <a href="https://bheuni.io/study-abroad-consultants-in-dhaka" target="_blank" rel="noopener">Dhaka Office</a>
+            <a href="https://bheuni.io/study-abroad-consultants-in-sylhet" target="_blank" rel="noopener">Sylhet Office</a>
+          </div></details>
+          <details class="m-grp"><summary>United Kingdom <i class="bi bi-chevron-down"></i></summary><div class="m-sub2">
+            <a href="https://bheuni.io/london-office" target="_blank" rel="noopener">London Office (Head Office)</a>
+            <a href="https://bheuni.io/manchester-office" target="_blank" rel="noopener">Manchester Office</a>
+          </div></details>
+        </div>
+      </details>
+    <a href="contact.html" class="d-block py-2 px-2 rounded nav-link-bhe">Contact Us</a>
+    <div class="d-flex gap-2 pt-3 mt-2 border-top">
+      <button class="btn btn-ghost-navy flex-fill py-2" data-auth="signin">Sign in</button>
+      <button class="btn btn-brand flex-fill py-2" data-auth="signup">Sign up</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="cd-crumbbar">
+    <div class="container-xxl px-3 px-sm-4">
+      <nav class="cd-crumb" id="udCrumb"></nav>
+    </div>
+  </section>
+
+  <div class="cd-visual">
+    <div class="cd-photo"><image-slot id="udPhoto" shape="rect" fit="cover" placeholder="University campus"></image-slot></div>
+    <div class="cd-banner">
+      <div class="container-xxl px-3 px-sm-4">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <div id="udHead"></div>
+          </div>
+          <div class="col-12 col-lg-4 d-flex align-items-lg-end justify-content-lg-end mt-3 mt-lg-0">
+            <div class="cd-side-actions">
+              <button type="button" class="cd-sbtn" id="udSave">Save <i class="bi bi-heart"></i></button>
+              <button type="button" class="cd-sbtn" id="udShare">Share <i class="bi bi-share"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section bg-white" style="padding-top:56px;" id="udMainSec">
+    <div class="container-xxl px-3 px-sm-4">
+      <div class="row g-5">
+        <div class="col-12 col-lg-7 col-xl-8 order-2 order-lg-1" id="udBody"></div>
+        <div class="col-12 col-lg-5 col-xl-4 order-1 order-lg-2">
+          <div class="cd-info-sticky" id="udInfoSticky">
+            <div class="cd-info-card" id="udInfoCard"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-soft-line" id="udRelatedSec">
+    <div class="container-xxl px-3 px-sm-4">
+      <div class="text-center mx-auto reveal" style="max-width:640px;">
+        <h2 class="section-title">Other Partner Universities</h2>
+        <p class="section-sub mt-3">Explore more of our partner institutions.</p>
+      </div>
+      <div class="row g-4 mt-1" id="udRelated"></div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BANNER ===================== -->
+  <section class="cta-banner-sec">
+    <div class="container-xxl px-3 px-sm-4">
+      <div class="cta-banner reveal">
+        <h2>Ready to get started?</h2>
+        <p>For any inquiries or further details, please don't hesitate to contact us. Let's take the next step in your academic journey together.</p>
+        <a href="contact.html" class="btn-cta">Contact Us <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container-xxl px-3 px-sm-4 pt-5 pb-4">
+    <div class="row g-4 g-lg-5">
+      <div class="col-lg-5">
+        <h4 class="footer-head">About BHE UNI</h4>
+        <p class="mt-3" style="font-size:14px;line-height:1.6;color:rgba(255,255,255,.65);max-width:24rem;">BHE UNI is a trusted education consultancy supporting international, EU, and UK Home students with course selection, university admissions, scholarships, and visa-ready documentation where applicable. With offices in Bangladesh and the UK, we provide local expertise with global reach.</p>
+        <div class="d-flex flex-wrap gap-2 mt-4" id="socialRow"></div>
+      </div>
+      <div class="col-6 col-lg">
+        <h4 class="footer-head">Student Services</h4>
+        <ul class="list-unstyled d-flex flex-column gap-3 mt-4 mb-0">
+          <li><a class="footer-link" href="#top">Free Consultation</a></li>
+          <li><a class="footer-link" href="#top">Study Abroad Destinations</a></li>
+          <li><a class="footer-link" href="#top">Education Consultancy Services</a></li>
+          <li><a class="footer-link" href="#top">Scholarships</a></li>
+          <li><a class="footer-link" href="#top">Student Reviews</a></li>
+          <li><a class="footer-link" href="#top">Accommodation</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg">
+        <h4 class="footer-head">About &amp; Resources</h4>
+        <ul class="list-unstyled d-flex flex-column gap-3 mt-4 mb-0">
+          <li><a class="footer-link" href="#top">Who We Are</a></li>
+          <li><a class="footer-link" href="#top">About Us</a></li>
+          <li><a class="footer-link" href="#top">Study Abroad</a></li>
+          <li><a class="footer-link" href="#top">Blog</a></li>
+          <li><a class="footer-link" href="team.html">Our Team</a></li>
+          <li><a class="footer-link" href="author.html">Author Profile</a></li>
+          <li><a class="footer-link" href="director.html">Director</a></li>
+          <li><a class="footer-link" href="#top">Resources</a></li>
+          <li><a class="footer-link" href="#top">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg">
+        <h4 class="footer-head">Partners &amp; Support</h4>
+        <ul class="list-unstyled d-flex flex-column gap-3 mt-4 mb-0">
+          <li><a class="footer-link" href="#top">Refer a Friend &amp; Family</a></li>
+          <li><a class="footer-link" href="#top">Become an Agent</a></li>
+          <li><a class="footer-link" href="#top">Agent / Staff Login</a></li>
+          <li><a class="footer-link" href="#top">Support</a></li>
+          <li><a class="footer-link" href="#top">Privacy Policy</a></li>
+          <li><a class="footer-link" href="#top">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr style="border-color:rgba(255,255,255,.1);margin:48px 0;" />
+
+    <div class="row g-4" id="officeGrid"></div>
+
+    <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between gap-4 mt-5">
+      <img src="assets/bhe-uni-logo-white.png" alt="BHE UNI" style="height:48px;width:auto;" />
+      <div class="d-flex gap-3">
+        <a href="#top" class="store-badge">
+          <i class="bi bi-apple" style="font-size:22px;"></i>
+          <span class="text-start lh-1"><span class="d-block" style="font-size:9px;text-transform:uppercase;color:rgba(255,255,255,.55);">Download on the</span><span class="d-block fw-semi" style="font-size:15px;">App Store</span></span>
+        </a>
+        <a href="#top" class="store-badge">
+          <i class="bi bi-google-play" style="font-size:19px;"></i>
+          <span class="text-start lh-1"><span class="d-block" style="font-size:9px;text-transform:uppercase;color:rgba(255,255,255,.55);">Get it on</span><span class="d-block fw-semi" style="font-size:15px;">Google Play</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div style="border-top:1px solid rgba(255,255,255,.1);">
+    <div class="container-xxl px-3 px-sm-4 py-3 d-flex align-items-center justify-content-center gap-3" style="font-size:13px;color:rgba(255,255,255,.45);">
+      <span>Copyright © <span id="year"></span> <span class="text-brand fw-semi">BHE UNI</span></span>
+      <span class="dmca"><span style="background:rgba(255,255,255,.1);color:#fff;padding:4px 8px;letter-spacing:.04em;">DMCA</span><span style="background:rgba(16,185,129,.9);color:#fff;padding:4px 8px;letter-spacing:.04em;">PROTECTED</span></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== AUTH MODAL ===================== -->
+<div class="modal fade" id="authModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" style="max-width:440px;">
+    <div class="modal-content">
+      <div class="auth-head">
+        <div class="blob"></div>
+        <button type="button" class="btn-close btn-close-white position-absolute" style="right:16px;top:16px;" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="d-flex align-items-center gap-2 position-relative" style="font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.7);"><i class="bi bi-mortarboard-fill"></i> BHE UNI Student Portal</div>
+        <h3 class="font-display fw-semi mt-3 mb-0 position-relative" id="authTitle" style="font-size:26px;line-height:1.2;">Sign in to your account</h3>
+        <p class="mt-2 mb-0 position-relative" id="authSub" style="font-size:14px;color:rgba(255,255,255,.7);">Access applications, tracking and resources.</p>
+      </div>
+      <div class="p-4 p-sm-4" id="authBody">
+        <button type="button" class="btn w-100 d-flex align-items-center justify-content-center gap-2 py-3" style="border:1px solid #e2e8f0;font-weight:600;font-size:14.5px;color:var(--navy-800);border-radius:12px;">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.76h3.56c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.56-2.76c-.98.66-2.23 1.06-3.72 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23z"/><path fill="#FBBC05" d="M5.84 14.11a6.6 6.6 0 0 1 0-4.22V7.05H2.18a11 11 0 0 0 0 9.9z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15A10.97 10.97 0 0 0 12 1 11 11 0 0 0 2.18 7.05l3.66 2.84C6.71 7.3 9.14 5.38 12 5.38z"/></svg>
+          Continue with Google
+        </button>
+        <div class="d-flex align-items-center gap-3 my-4"><span class="flex-fill" style="height:1px;background:#e2e8f0;"></span><span style="font-size:12px;font-weight:500;color:#94a3b8;">or</span><span class="flex-fill" style="height:1px;background:#e2e8f0;"></span></div>
+        <form id="authForm" novalidate>
+          <label class="d-block mb-3" id="nameField" style="display:none!important;">
+            <span class="d-block mb-1" style="font-size:13.5px;font-weight:600;color:var(--navy-800);">Full name</span>
+            <span class="input-wrap"><i class="bi bi-person ic"></i><input class="bhe-input" name="name" placeholder="Jordan Ahmed" /></span>
+          </label>
+          <label class="d-block mb-3">
+            <span class="d-block mb-1" style="font-size:13.5px;font-weight:600;color:var(--navy-800);">Email address</span>
+            <span class="input-wrap"><i class="bi bi-envelope ic"></i><input class="bhe-input" name="email" type="email" placeholder="you@email.com" required /></span>
+          </label>
+          <label class="d-block">
+            <span class="d-flex justify-content-between mb-1"><span style="font-size:13.5px;font-weight:600;color:var(--navy-800);">Password</span><a href="#" id="forgotLink" class="fw-semi text-brand text-decoration-none" style="font-size:13px;">Forgot?</a></span>
+            <span class="input-wrap"><i class="bi bi-lock ic"></i><input class="bhe-input" name="password" type="password" placeholder="••••••••" required /></span>
+          </label>
+          <button type="submit" class="btn btn-brand w-100 mt-4 py-3" id="authSubmit" style="font-size:15.5px;">Sign in</button>
+          <p class="text-center mt-3 mb-0" style="font-size:14px;color:#64748b;" id="authSwitchRow">
+            <span id="authSwitchText">Don't have an account? </span>
+            <button type="button" class="btn p-0 fw-semi text-brand align-baseline" id="authSwitch" style="font-size:14px;">Sign up</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="image-slot.js"></script>
+<script src="courses-data.js"></script>
+<script src="universities-data.js"></script>
+<script src="app.js?v=14"></script>
+<script>
+(function(){
+  var UNIS = window.BHE_UNIS || [];
+  var COURSES = window.BHE_COURSES || [];
+  function esc(x){ return String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function money(n){ return '$'+n.toLocaleString(); }
+
+  var slug = new URLSearchParams(location.search).get('uni');
+  var u = UNIS.filter(function(x){ return x.slug===slug; })[0] || UNIS[0];
+  document.title = 'BHE UNI — ' + u.name;
+
+  document.getElementById('udCrumb').innerHTML =
+    '<a href="index.html">Home</a><i class="bi bi-chevron-right"></i>'+
+    '<a href="universities.html">Universities</a><i class="bi bi-chevron-right"></i>'+
+    '<span class="cur">'+esc(u.name)+'</span>';
+
+  var photo = document.getElementById('udPhoto');
+  if (photo) photo.setAttribute('placeholder', u.name + ' campus');
+
+  var words = u.name.split(' ');
+  var splitAt = Math.max(1, Math.ceil(words.length * 0.5));
+  var plainPart = words.slice(0, splitAt).join(' ');
+  var hlPart = words.slice(splitAt).join(' ') || words[words.length-1];
+
+  document.getElementById('udHead').innerHTML =
+    '<h1>'+(hlPart!==u.name?esc(plainPart)+' ':'')+'<span class="cd-hl">'+esc(hlPart)+'</span></h1>'+
+    '<div class="cd-loc"><i class="bi bi-geo-alt-fill"></i> '+esc(u.city)+', '+esc(u.country)+'</div>'+
+    '<div class="cd-banner-actions">'+
+      '<a href="#udBody" class="cd-wbtn">See Courses Offered</a>'+
+      '<a href="become-an-agent.html#apply" class="cd-wbtn solid">Apply with BHE UNI</a>'+
+    '</div>';
+
+  var uniCourses = COURSES.filter(function(c){ return c.uni===u.name; });
+  var fees = uniCourses.map(function(c){return c.fee;});
+  var feeRange = fees.length ? (money(Math.min.apply(null,fees))+' – '+money(Math.max.apply(null,fees))) : 'Contact us';
+  var levels = Array.from(new Set(uniCourses.map(function(c){return c.level;})));
+
+  document.getElementById('udInfoCard').innerHTML =
+    '<div class="cd-info-head">University Information</div>'+
+    '<div class="cd-info-body">'+
+      '<div class="cd-info-row"><span class="ir-k">Institution Type</span><span class="ir-v">'+esc(u.type)+'</span></div>'+
+      '<div class="cd-info-row"><span class="ir-k">City</span><span class="ir-v">'+esc(u.city)+'</span></div>'+
+      '<div class="cd-info-row"><span class="ir-k">Country</span><span class="ir-v">'+esc(u.country)+'</span></div>'+
+      '<div class="cd-info-row"><span class="ir-k">Courses Available</span><span class="ir-v">'+uniCourses.length+'</span></div>'+
+      '<div class="cd-info-row"><span class="ir-k">Levels Offered</span><span class="ir-v">'+esc(levels.join(', ')||'—')+'</span></div>'+
+      '<div class="cd-info-row"><span class="ir-k">Tuition Range</span><span class="ir-v">'+feeRange+'</span></div>'+
+      '<a href="become-an-agent.html#apply" class="cd-info-apply">Apply Now <i class="bi bi-arrow-right"></i></a>'+
+    '</div>';
+
+  var saveBtn = document.getElementById('udSave');
+  if (saveBtn) saveBtn.addEventListener('click', function(){
+    var saved = saveBtn.classList.toggle('is-saved');
+    saveBtn.innerHTML = saved ? 'Saved <i class="bi bi-heart-fill" style="color:var(--brand-500);"></i>' : 'Save <i class="bi bi-heart"></i>';
+  });
+  var shareBtn = document.getElementById('udShare');
+  if (shareBtn) shareBtn.addEventListener('click', function(){
+    if (navigator.clipboard) { navigator.clipboard.writeText(location.href); shareBtn.innerHTML = 'Copied <i class="bi bi-check-lg"></i>'; setTimeout(function(){ shareBtn.innerHTML = 'Share <i class="bi bi-share"></i>'; }, 1600); }
+  });
+
+  var courseCardsHtml = uniCourses.slice(0,6).map(function(c){
+    return '<div class="col-md-6"><a href="course-details.html?course='+c.slug+'" class="cd-related-card" style="display:block;"><span class="cd-lvl" style="background:var(--brand-50);color:var(--brand-600);border-color:rgba(244,123,32,.2);">'+esc(c.level)+'</span><h3>'+esc(c.t)+'</h3><div class="rc-meta"><i class="bi bi-cash-coin"></i> '+money(c.fee)+'/yr &middot; '+esc(c.duration)+'</div></a></div>';
+  }).join('');
+  var coursesBlock = uniCourses.length ? '<div class="row g-3">'+courseCardsHtml+'</div>' : '<p style="font-family:\'Kanit\',sans-serif;color:#94a3b8;">Course details for this university are coming soon.</p>';
+  var ug = uniCourses.filter(function(c){return c.level==='Undergraduate';}).length;
+  var pg = uniCourses.filter(function(c){return c.level==='Postgraduate';}).length;
+  var campuses = Array.from(new Set(uniCourses.map(function(c){return c.campus;}).join(', ').split(', ').filter(Boolean)));
+  var intakes = Array.from(new Set(uniCourses.map(function(c){return c.intake;}).join(', ').split(', ').filter(Boolean)));
+
+  document.getElementById('udBody').innerHTML =
+    '<div class="ud-tabs">'+
+      '<button type="button" class="ud-tab active" data-tab="overview">Overview</button>'+
+      '<button type="button" class="ud-tab" data-tab="history">University History</button>'+
+      '<button type="button" class="ud-tab" data-tab="why">Why Study At '+esc(u.name)+'</button>'+
+    '</div>'+
+    '<div class="ud-panel active" data-panel="overview">'+
+      '<div class="ud-overview-row">'+
+        '<div class="ud-logo-card"><image-slot id="ud-logo" shape="rect" fit="contain" placeholder="'+esc(u.name)+' logo"></image-slot></div>'+
+        '<div class="ud-overview-text">'+
+          '<p>'+esc(u.name)+' is a '+esc(u.type).toLowerCase()+' based in '+esc(u.city)+', '+esc(u.country)+'. '+esc(u.desc)+'</p>'+
+          '<p>As a BHE UNI partner institution, applications to '+esc(u.name)+' are supported end-to-end — from course selection through to enrolment and, where required, visa-readiness guidance.</p>'+
+        '</div>'+
+      '</div>'+
+      '<div class="ud-fact-table">'+
+        '<div class="ud-fact-row"><div class="fk">Intakes</div><div class="fv">'+esc(intakes.join(', ')||'—')+'</div></div>'+
+        '<div class="ud-fact-row"><div class="fk">All Campuses</div><div class="fv">'+esc(campuses.join(', ')||u.city)+'</div></div>'+
+        '<div class="ud-fact-row"><div class="fk">World Ranking</div><div class="fv">'+esc(u.worldRanking||'—')+'</div></div>'+
+        '<div class="ud-fact-row"><div class="fk">Available Subjects</div><div class="fv">'+ug+' Undergraduate, '+pg+' Postgraduate</div></div>'+
+        '<div class="ud-fact-row"><div class="fk">Students Satisfaction</div><div class="fv">Overall Student Satisfaction &ndash; '+esc(u.satisfaction||'—')+'</div></div>'+
+        '<div class="ud-fact-row"><div class="fk">Graduate Employability</div><div class="fv">'+esc(u.employability||'—')+'</div></div>'+
+        '<div class="ud-fact-row"><div class="fk">International Student Percentage</div><div class="fv">'+esc(u.intlPercent||'—')+'</div></div>'+
+        '<div class="ud-fact-row"><div class="fk">International Tuition Fees</div><div class="fv">'+feeRange+' per year</div></div>'+
+        '<div class="ud-fact-row"><div class="fk">Main Campus Location</div><div class="fv">'+esc(u.mainCampus||u.city+', '+u.country)+'</div></div>'+
+      '</div>'+
+      '<div class="ud-sec">'+
+        '<h3>Ranking</h3>'+
+        '<ul class="ud-plain-list">'+(u.rankingBullets||[]).map(function(b){return '<li>'+esc(b)+'</li>';}).join('')+'</ul>'+
+      '</div>'+
+      '<div class="ud-sec">'+
+        '<h3>English Language Requirements</h3>'+
+        '<p>'+esc(u.name)+' has a well-defined English language requirement for international students. However, it varies based on course and level of study. Here are the standard language requirements at '+esc(u.name)+'.</p>'+
+        '<h4>IELTS</h4>'+
+        '<p>'+esc((u.ielts&&u.ielts.ug)||'Please contact us for the latest IELTS requirements for this university.')+'</p>'+
+        '<h4>TOEFL</h4>'+
+        '<p>'+esc((u.toefl&&u.toefl.ug)||'Please contact us for the latest TOEFL requirements for this university.')+'</p>'+
+      '</div>'+
+      '<div class="ud-sec">'+
+        '<h3>Tuition Fees</h3>'+
+        '<p>'+esc(u.name)+' offers a wide range of courses and degrees in various levels of study, such as undergraduate, postgraduate, and postgraduate research degrees. Tuition fees at '+esc(u.name)+' depend on factors like course, level of study, duration, and students\' nationality. The following are the standard tuition fee structures at '+esc(u.name)+'.</p>'+
+        '<ul class="ud-plain-list">'+
+          '<li>Tuition fee for UK and EU undergraduate students is around GBP 9,250 per annum.</li>'+
+          '<li>Tuition fee for international undergraduate students is around '+feeRange+' per annum.</li>'+
+          '<li>Tuition fee for UK and EU postgraduate students is around GBP 8,500 to 12,000 per annum.</li>'+
+          '<li>Tuition fee for international postgraduate students is around '+feeRange+' per annum.</li>'+
+          '<li>Tuition fee for international postgraduate research students may vary by department; contact us for the latest figures.</li>'+
+        '</ul>'+
+      '</div>'+
+      '<div class="ud-sec">'+
+        '<h3>Fees &amp; Funding</h3>'+
+        '<div class="ud-fee-cols">'+
+          '<div><h4>UK &amp; EU</h4><p>Eligible UK and all UK students can apply for SLC funding to cover their tuition fees. Besides this, many scholarships and other kinds of funding are available at '+esc(u.name)+' for home and EU students.</p></div>'+
+          '<div><h4>International</h4><p>International students have a wide range of scholarship opportunities based on their academic merit and requirements. Please book free counselling with us to learn more about the available scholarships at '+esc(u.name)+'.</p></div>'+
+        '</div>'+
+      '</div>'+
+      '<div class="ud-sec">'+
+        '<h3>Application Guidelines</h3>'+
+        '<ul class="ud-plain-list">'+
+          '<li>EU and UK students can apply to '+esc(u.name)+' via UCAS or our Agent Portal.</li>'+
+          '<li>International students can apply to '+esc(u.name)+' from the university website or our agent portal.</li>'+
+        '</ul>'+
+      '</div>'+
+      '<div class="ud-sec">'+
+        '<h3>Apply Online</h3>'+
+        '<p>You can apply to '+esc(u.name)+' online from its university website by filling out the application form with current and updated information and providing supporting documents with the application.</p>'+
+      '</div>'+
+      '<div class="ud-sec">'+
+        '<h3>Immigration Support Service</h3>'+
+        '<p>International students will require a Tier 4 Student Visa from the UK\'s immigration authority to study at '+esc(u.name)+'. The university will provide the CAS and other necessary documents to help you obtain your student visa.</p>'+
+      '</div>'+
+    '</div>'+
+    '<div class="ud-panel" data-panel="history">'+
+      '<div class="ud-hist-intro">'+(u.history||[]).map(function(p){return '<p>'+esc(p)+'</p>';}).join('')+'</div>'+
+      '<div class="ud-hist-band">'+
+        '<div class="ud-hist-grid">'+
+          '<div class="ud-hist-main"><image-slot id="ud-hist-main" shape="rect" fit="cover" placeholder="'+esc(u.name)+' campus building"></image-slot><span class="ud-hist-name">'+esc(u.name)+'</span></div>'+
+          '<div class="ud-hist-side">'+
+            '<div class="ud-hist-year"><span>'+(u.founded||'\u2014')+'</span></div>'+
+            '<div class="ud-hist-photo"><image-slot id="ud-hist-photo" shape="rect" fit="cover" placeholder="Students on '+esc(u.name)+' campus"></image-slot></div>'+
+          '</div>'+
+        '</div>'+
+      '</div>'+
+    '</div>'+
+    '<div class="ud-panel" data-panel="why">'+
+      '<div class="ud-gallery">'+
+        '<image-slot id="ud-why-g1" shape="rect" fit="cover" placeholder="'+esc(u.name)+' campus building"></image-slot>'+
+        '<image-slot id="ud-why-g2" shape="rect" fit="cover" placeholder="'+esc(u.name)+' library interior"></image-slot>'+
+        '<image-slot id="ud-why-g3" shape="rect" fit="cover" placeholder="Student study space"></image-slot>'+
+        '<image-slot id="ud-why-g4" shape="rect" fit="cover" placeholder="Lecture hall in session"></image-slot>'+
+        '<div class="ud-gallery-row2" style="grid-column:1 / -1;">'+
+          '<image-slot id="ud-why-g5" shape="rect" fit="cover" placeholder="Students socialising on campus"></image-slot>'+
+          '<image-slot id="ud-why-g6" shape="rect" fit="cover" placeholder="Seminar classroom"></image-slot>'+
+          '<image-slot id="ud-why-g7" shape="rect" fit="cover" placeholder="Student common room"></image-slot>'+
+          '<image-slot id="ud-why-g8" shape="rect" fit="cover" placeholder="Practical / lab workshop"></image-slot>'+
+          '<image-slot id="ud-why-g9" shape="rect" fit="cover" placeholder="'+esc(u.name)+' campus grounds"></image-slot>'+
+        '</div>'+
+      '</div>'+
+      '<div class="ud-why-intro">'+(u.intro||[]).map(function(p){return '<p>'+esc(p)+'</p>';}).join('')+'</div>'+
+      '<h2 style="margin-top:8px;">Schools, Faculties, and Institutes</h2>'+
+      '<div class="ud-why-cols">'+
+        '<div class="ud-why-col"><div class="ud-why-col-h"><i class="bi bi-dash-lg"></i> Faculties</div><ul>'+(u.faculties||[]).map(function(f){return '<li>'+esc(f)+'</li>';}).join('')+'</ul></div>'+
+        '<div class="ud-why-col"><div class="ud-why-col-h"><i class="bi bi-dash-lg"></i> Institutes</div><ul>'+(u.institutes||[]).map(function(f){return '<li>'+esc(f)+'</li>';}).join('')+'</ul></div>'+
+      '</div>'+
+      '<h2 style="margin-top:34px;">Scholarships, Bursaries, and Funding</h2>'+
+      '<p style="font-family:\'Kanit\',sans-serif;font-weight:300;font-size:14.5px;color:#64748b;line-height:1.7;margin-bottom:10px;">Students at '+esc(u.name)+' can apply for various scholarships offered by the university, the UK government, and international bodies. Here are some of the main popular scholarships at '+esc(u.name)+':</p>'+
+      (u.scholarships||[]).map(function(s){ return '<div class="ud-schol-item"><div class="st">'+esc(s.name)+'</div><div class="sd">'+esc(s.desc)+'</div></div>'; }).join('')+
+      '<h2 style="margin-top:34px;">Student Accommodation</h2>'+
+      '<p style="font-family:\'Kanit\',sans-serif;font-weight:300;font-size:15px;color:#334155;line-height:1.75;">'+esc(u.accommodation||'')+'</p>'+
+      '<h2 style="margin-top:28px;">Off-Campus Student Accommodations</h2>'+
+      '<p style="font-family:\'Kanit\',sans-serif;font-weight:300;font-size:15px;color:#334155;line-height:1.75;">'+esc(u.offCampus||'')+'</p>'+
+    '</div>';
+
+  document.getElementById('udBody').addEventListener('click', function(e){
+    var b = e.target.closest('.ud-tab');
+    if(!b) return;
+    var tab = b.dataset.tab;
+    document.querySelectorAll('.ud-tab').forEach(function(t){ t.classList.toggle('active', t===b); });
+    document.querySelectorAll('.ud-panel').forEach(function(p){ p.classList.toggle('active', p.dataset.panel===tab); });
+  });
+
+  var related = UNIS.filter(function(x){ return x.slug!==u.slug; }).slice(0,3);
+  document.getElementById('udRelated').innerHTML = related.map(function(x){
+    var n = COURSES.filter(function(c){return c.uni===x.name;}).length;
+    return '<div class="col-md-4"><a href="university-details.html?uni='+x.slug+'" class="cd-related-card"><span class="cd-lvl" style="background:#eef3fc;color:#1c3f9e;border-color:rgba(28,63,158,.18);">'+esc(x.country)+'</span><h3>'+esc(x.name)+'</h3><div class="rc-meta"><i class="bi bi-geo-alt"></i> '+esc(x.city)+' &middot; '+n+' course'+(n===1?'':'s')+'</div></a></div>';
+  }).join('');
+
+  function alignInfoCard(){
+    var sticky = document.getElementById('udInfoSticky');
+    var visual = document.querySelector('.cd-visual');
+    var photo = document.querySelector('.cd-photo');
+    if (!sticky || !visual || !photo) return;
+    if (window.innerWidth < 992) { sticky.style.marginTop = ''; return; }
+    var photoRect = photo.getBoundingClientRect();
+    var stickyRect = sticky.getBoundingClientRect();
+    var seamY = photoRect.bottom - 30;
+    var delta = stickyRect.top - seamY;
+    var currentMargin = parseFloat(getComputedStyle(sticky).marginTop) || 0;
+    sticky.style.marginTop = (currentMargin - delta) + 'px';
+  }
+  requestAnimationFrame(function(){ requestAnimationFrame(alignInfoCard); });
+  var alignTimer;
+  window.addEventListener('resize', function(){ clearTimeout(alignTimer); alignTimer = setTimeout(alignInfoCard, 150); });
+})();
+</script>
+</body>
+</html>
