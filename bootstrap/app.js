@@ -330,3 +330,86 @@
   });
   }
 })();
+
+/* ---------- Free Consultation Modal Integration ---------- */
+(function() {
+  const modalHTML = `
+    <div class="consult-modal-overlay" id="consultModal">
+      <div class="consult-modal-card">
+        <div class="consult-modal-left"></div>
+        <div class="consult-modal-right">
+          <button class="consult-modal-close" id="closeConsultModal" aria-label="Close modal">&times;</button>
+          <h2 class="consult-modal-title">Speak with a <span>BHE UNI Expert</span></h2>
+          <p class="consult-modal-sub">Get personalised guidance on courses, universities, and your study plans.</p>
+          <form class="consult-form" id="consultationModalForm">
+            <input type="text" class="consult-input" placeholder="Full Name" required />
+            <input type="email" class="consult-input" placeholder="Email Address" required />
+            <input type="tel" class="consult-input" placeholder="Phone Number" required />
+            <button type="submit" class="consult-btn">Schedule a Free Call</button>
+          </form>
+          <p class="consult-disclaimer">By submitting, you agree to be contacted by a BHE UNI representative.</p>
+        </div>
+      </div>
+    </div>
+  `;
+  
+  const div = document.createElement('div');
+  div.innerHTML = modalHTML.trim();
+  const modalEl = div.firstChild;
+  document.body.appendChild(modalEl);
+
+  const closeBtn = document.getElementById('closeConsultModal');
+  const form = document.getElementById('consultationModalForm');
+
+  const openModal = (e) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    modalEl.classList.add('show');
+  };
+
+  const closeModal = () => {
+    modalEl.classList.remove('show');
+  };
+
+  closeBtn.addEventListener('click', closeModal);
+  modalEl.addEventListener('click', (e) => {
+    if (e.target === modalEl) closeModal();
+  });
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Thank you! Your free consultation has been scheduled.');
+    closeModal();
+    form.reset();
+  });
+
+  const attachListeners = () => {
+    const elements = Array.from(document.querySelectorAll('a, button'));
+    elements.forEach(el => {
+      const text = el.textContent || '';
+      const aria = el.getAttribute('aria-label') || '';
+      const href = el.getAttribute('href') || '';
+      const isConsult = /consult/i.test(text) || /consult/i.test(aria) || /consultation/i.test(href);
+      if (isConsult && !el.classList.contains('footer-link')) {
+        el.removeAttribute('data-scroll');
+        el.removeAttribute('target');
+        el.setAttribute('href', '#');
+        el.addEventListener('click', openModal);
+      }
+    });
+
+    const headerConsultBtns = document.querySelectorAll('button[aria-label="Consultation"]');
+    headerConsultBtns.forEach(btn => {
+      btn.removeAttribute('data-scroll');
+      btn.addEventListener('click', openModal);
+    });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', attachListeners);
+  } else {
+    attachListeners();
+  }
+})();
