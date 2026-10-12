@@ -1,0 +1,36 @@
+.accommodation-page { --ac-muted:#637187; }
+.accommodation-page h2 { font-size:clamp(30px,3.2vw,42px);font-weight:600;letter-spacing:-.025em;line-height:1.16;margin-bottom:18px; }
+.accommodation-page h3 { font-size:22px;font-weight:500; }
+.accommodation-page p { color:var(--ac-muted);line-height:1.65; }
+.ac-eyebrow { font-size:12px;letter-spacing:.14em;font-weight:500;color:var(--brand-600);margin-bottom:16px; }
+.ac-lead { font-size:18px;max-width:540px;margin-top:24px; }
+.ac-section { padding:88px 0;scroll-margin-top:95px; }
+.ac-soft { background:#f7f9fc; }
+.ac-heading { max-width:700px;margin:0 auto 42px;text-align:center; }
+.ac-heading p { font-size:17px; }
+.ac-trust { display:flex;flex-wrap:wrap;gap:20px;margin-top:28px;font-size:14px;color:#637187; }
+.ac-trust i { color:var(--brand-600);margin-right:6px; }
+.ac-hero-image { position:relative;padding:18px 0 28px 20px; }
+.ac-hero-image:before { content:'';position:absolute;inset:0 22px 10px 0;border-radius:32px;border:1px solid #f8d4b5;transform:rotate(-4deg); }
+.ac-hero-image>img { width:100%;height:420px;object-fit:cover;border-radius:26px;position:relative; }
+.ac-image-label { position:absolute;top:38px;left:40px;background:#fff;padding:10px 16px;border-radius:99px;font-size:13px;color:#16315a;box-shadow:0 8px 30px #06122a15; }
+.ac-image-label i { color:var(--brand-600);margin-right:7px; }
+.ac-image-note { position:absolute;bottom:0;left:42px;right:26px;background:white;padding:20px;display:flex;align-items:center;gap:16px;border-radius:18px;box-shadow:0 18px 50px #06122a18; }
+.ac-image-note strong,.ac-image-note small { display:block; }
+.ac-image-note small { color:#637187;margin-top:3px; }
+.ac-note-icon,.ac-card-icon { width:48px;height:48px;border-radius:14px;background:#fff0e3;color:var(--brand-600);display:grid;place-items:center;font-size:24px;flex-shrink:0; }
+.ac-intro { background:var(--navy-950);padding:55px 0;color:#fff; }
+.ac-intro h2 { color:white;margin:0; }.ac-intro p { color:#bcc9dc;font-size:17px; }.ac-intro span { font-size:14px; }
+.ac-options { display:grid;grid-template-columns:repeat(4,1fr);gap:20px; }
+.ac-option { border:1px solid #e2e8f0;border-radius:20px;padding:26px;background:#fff; }.ac-option-top { display:flex;align-items:center;justify-content:space-between;margin-bottom:25px; }.ac-number { font-size:26px;color:#cbd5e1;font-weight:400; }.ac-option h3 { font-size:21px; }.ac-option p { font-size:14px; }.ac-option .ac-tag { color:var(--navy-800);font-weight:500; }.ac-list { border-top:1px solid #edf0f5;padding-top:18px;margin-top:20px; }.ac-list strong,.ac-cons strong { font-size:13px;font-weight:500;display:block;margin-bottom:9px; }.ac-list span,.ac-cons span { display:block;font-size:13px;color:#637187;margin:6px 0; }.ac-list i { color:#16826c;margin-right:7px; }.ac-cons { margin-top:18px; }
+.ac-destinations { display:grid;grid-template-columns:repeat(4,1fr);gap:22px; }.ac-destination { overflow:hidden;border-radius:20px;background:#fff;border:1px solid #e2e8f0;text-decoration:none;transition:transform .2s,box-shadow .2s; }.ac-destination:hover { transform:translateY(-5px);box-shadow:0 15px 30px #06122a12; }.ac-destination img { width:100%;height:185px;object-fit:cover; }.ac-destination>div { padding:23px; }.ac-destination h3 { font-size:21px;color:var(--navy-900);display:flex;justify-content:space-between;gap:8px; }.ac-destination h3 i { color:var(--brand-600);font-size:18px; }.ac-destination p { font-size:13px;margin:12px 0 0; }.ac-more { display:flex;align-items:center;gap:22px;border:1px solid #e0e6ee;background:#fff;border-radius:16px;padding:24px;margin-top:24px; }.ac-more>i { font-size:28px;color:var(--brand-600); }.ac-more p { margin:4px 0 0;font-size:14px; }.ac-more a { margin-left:auto;white-space:nowrap;color:var(--navy-800);font-size:14px; }
+.ac-partner-image { border-radius:24px;overflow:hidden;background:#eef2f7; }.ac-partner-image img { width:100%;height:520px;object-fit:cover; }.ac-benefits { display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:28px; }.ac-benefits i { color:var(--brand-600);font-size:24px; }.ac-benefits h3 { font-size:18px;margin-top:10px; }.ac-benefits p { font-size:14px;margin-bottom:0; }
+.ac-steps { display:grid;grid-template-columns:repeat(3,1fr);gap:40px; }.ac-steps article { border-top:1px solid #dbe2ee;padding-top:24px; }.ac-steps span { display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:#fff0e3;color:var(--brand-600);margin-bottom:20px;font-size:18px; }.ac-steps p { font-size:15px; }
+.ac-faq details { border:1px solid #e2e8f0;border-radius:12px;margin-bottom:12px;background:white; }.ac-faq summary { padding:20px 24px;list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:18px;font-size:17px;font-weight:500; }.ac-faq summary::-webkit-details-marker { display:none; }.ac-faq summary i { color:var(--brand-600); }.ac-faq details[open] summary i { transform:rotate(45deg); }.ac-faq details[open] { background:#fffaf6;border-color:#f4d6be; }.ac-faq details p { padding:0 24px 20px;margin:0;font-size:15px; }
+.ac-cta { padding:55px 60px;border-radius:26px;background:var(--navy-950);color:white;display:flex;justify-content:space-between;align-items:center;gap:30px; }.ac-cta h2 { color:white; }.ac-cta p { color:#b7c6dc;margin-bottom:0; }
+@media(max-width:1199px) { .ac-options,.ac-destinations { grid-template-columns:repeat(2,1fr); } }
+@media(max-width:767px) { .ac-section { padding:56px 0; }.ac-hero-image>img { height:320px; }.ac-image-note { left:30px;right:12px;padding:16px; }.ac-steps { grid-template-columns:1fr;gap:18px; }.ac-more,.ac-cta { flex-direction:column;align-items:flex-start; }.ac-more a { margin-left:0; }.ac-cta { padding:32px 24px; }.ac-partner-image img { height:350px; } }
+@media(max-width:479px) { .ac-options,.ac-destinations { grid-template-columns:1fr; }.ac-benefits { grid-template-columns:1fr; }.ac-image-label { left:30px;font-size:12px; }.ac-image-note strong { font-size:14px; }.ac-image-note small { font-size:12px; } }
+.ac-hero-image>img { object-fit:contain;background:#eef4f8; }
+.ac-home-badge { position:absolute;left:46%;top:46%;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:var(--brand-500);color:white;font-size:27px;box-shadow:0 5px 20px #06122a22; }
+.ac-destination img.ac-destination-flag { object-fit:contain;padding:52px;background:linear-gradient(135deg,#edf2fa,#f6f8fc); }

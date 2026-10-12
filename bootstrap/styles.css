@@ -138,10 +138,13 @@ body { font-family: var(--bs-body-font-family); color: var(--navy-900); backgrou
 .m-sub2 { padding-left:14px; display:flex; flex-direction:column; }
 .m-sub2 a { padding:7px 8px; font-size:13.5px; color:#64748b; text-decoration:none; border-radius:8px; }
 .m-sub2 a:hover { color:var(--brand-600); background:var(--brand-50); }
-.icon-pill { border:1px solid rgba(10,26,51,.15); border-radius:999px; padding:6px; display:inline-flex; gap:4px; }
-.icon-btn { width:36px; height:36px; display:grid; place-items:center; border-radius:999px; border:none; background:transparent; color: var(--navy-800); transition: all .2s; }
-.icon-btn:hover { background: rgba(10,26,51,.06); color: var(--brand-600); }
-.icon-btn.active { background: var(--brand-500); color:#fff; }
+/* Navigation actions — fine blue outlines matching the reference. */
+.icon-pill { border:1px solid #27369b; border-radius:999px; padding:6px 18px; display:inline-flex; align-items:center; gap:4px; background:#fff; }
+.icon-btn { width:36px; height:36px; padding:0; display:grid; place-items:center; border-radius:999px; border:none; background:transparent; color:#27369b; cursor:pointer; transition:background .2s, color .2s; }
+.nav-action-icon { width:24px; height:24px; stroke:currentColor; stroke-width:1; stroke-linecap:round; stroke-linejoin:round; pointer-events:none; }
+.icon-btn:hover { background:#eef0ff; }
+.icon-btn:focus-visible { outline:2px solid #27369b; outline-offset:2px; }
+.icon-btn.active { background:#27369b; color:#fff; }
 
 /* ---- student portal popup ---- */
 .portal-pop {
@@ -1284,3 +1287,19 @@ select.jf-input { appearance:none; -webkit-appearance:none; cursor:pointer; back
   .consult-modal-close { top: 16px; right: 16px; background: rgba(255,255,255,0.8); border-radius: 50%; width: 32px; height: 32px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
 }
 
+
+/* Compact International Student Support hero. */
+.iss-hero { padding-top:112px; padding-bottom:44px; }
+.iss-hero h1 { font-size:clamp(2.3rem,3.4vw,48px); }
+.iss-hero .iss-mosaic { max-width:400px; gap:12px; }
+.iss-hero .iss-mosaic .imc { gap:12px; }
+.iss-hero .iss-mosaic .imc.offset { margin-top:24px; }
+.iss-hero .im-tall { height:200px; aspect-ratio:auto; }
+.iss-hero .im-short { height:140px; aspect-ratio:auto; }
+@media (max-width:991px) {
+  .iss-hero { padding-top:104px; padding-bottom:40px; }
+  .iss-hero .iss-mosaic { margin-top:0; max-width:360px; }
+}
+@media (max-width:420px) {
+  .iss-hero .iss-mosaic { transform:none; }
+}
