@@ -1304,16 +1304,21 @@ select.jf-input { appearance:none; -webkit-appearance:none; cursor:pointer; back
   .iss-hero .iss-mosaic { transform:none; }
 }
 
-/* Shared hero CTA sizing, matching the Who We Are reference buttons. */
-.hero .btn:is(.btn-brand, .btn-navy-grad, .btn-ghost-navy),
-.second-course-footer .btn {
+/* Consistent action button sizing across all page content and forms. */
+:root {
+  --cta-height: 52px;
+  --cta-padding-x: 32px;
+}
+:is(main, .modal, dialog) .btn:is(.btn-brand, .btn-navy-grad, .btn-ghost-navy, .btn-white-pill),
+.btn-meet, .cta-banner .btn-cta, .cd-wbtn, .cd-btn-primary, .cd-btn-ghost,
+.job-search-btn, .crs-search-btn, .consult-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  height: 52px;
-  min-height: 52px;
-  padding: 0 32px;
+  height: var(--cta-height);
+  min-height: var(--cta-height);
+  padding: 0 var(--cta-padding-x) !important;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -1322,6 +1327,7 @@ select.jf-input { appearance:none; -webkit-appearance:none; cursor:pointer; back
   max-width: 100%;
 }
 @media (max-width: 575px) {
-  .hero .btn:is(.btn-brand, .btn-navy-grad, .btn-ghost-navy),
-.second-course-footer .btn { font-size: 14px; }
+  :is(main, .modal, dialog) .btn:is(.btn-brand, .btn-navy-grad, .btn-ghost-navy, .btn-white-pill),
+  .btn-meet, .cta-banner .btn-cta, .cd-wbtn, .cd-btn-primary, .cd-btn-ghost,
+  .job-search-btn, .crs-search-btn, .consult-btn { font-size: 14px; }
 }
