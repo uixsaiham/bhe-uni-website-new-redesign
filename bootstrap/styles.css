@@ -1303,3 +1303,23 @@ select.jf-input { appearance:none; -webkit-appearance:none; cursor:pointer; back
 @media (max-width:420px) {
   .iss-hero .iss-mosaic { transform:none; }
 }
+
+/* Shared hero CTA sizing, matching the Who We Are reference buttons. */
+.hero .btn:is(.btn-brand, .btn-navy-grad, .btn-ghost-navy) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 52px;
+  min-height: 52px;
+  padding: 0 32px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 999px;
+  white-space: nowrap;
+  max-width: 100%;
+}
+@media (max-width: 575px) {
+  .hero .btn:is(.btn-brand, .btn-navy-grad, .btn-ghost-navy) { font-size: 14px; }
+}
