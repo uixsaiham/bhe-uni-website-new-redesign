@@ -10,11 +10,6 @@
 [data-hero-theme="international-student-support"] { --hero-base:#f6f9fd;--hero-art:radial-gradient(ellipse at 94% 105%,#dceafa 0 38%,transparent 38.2%),radial-gradient(ellipse at 92% 104%,transparent 0 44%,#2a55cf18 44.2% 44.5%,transparent 44.7%),linear-gradient(110deg,#fffaf5,transparent 65%); }
 /* Accommodation: warm architectural blocks. */
 [data-hero-theme="accommodation"] { --hero-base:#fff9f3;--hero-art:linear-gradient(90deg,transparent 67%,#eedbc44d 67% 68%,transparent 68% 86%,#eedbc44d 86% 87%,transparent 87%),linear-gradient(0deg,transparent 24%,#eedbc44d 24% 24.3%,transparent 24.3% 72%,#eedbc44d 72% 72.3%,transparent 72.3%),radial-gradient(ellipse at 85% 45%,#f7e4d4,transparent 60%); }
-/* Visa: layered diagonal routes. */
-[data-hero-theme="immigration-visa-assistance"] { --hero-base:#f3f7fc;--hero-art:linear-gradient(135deg,transparent 53%,#2a55cf08 53% 64%,transparent 64% 68%,#2a55cf0c 68% 79%,transparent 79%),radial-gradient(ellipse at 15% 100%,#fbe6d34d,transparent 65%); }
-/* Finance pages: complementary amber rays and blue terraces. */
-[data-hero-theme="first-loan"] { --hero-base:#fffbf6;--hero-art:conic-gradient(from 205deg at 85% 68%,transparent 0 15deg,#f47b200a 15deg 40deg,transparent 40deg 65deg,#f47b200d 65deg 90deg,transparent 90deg),radial-gradient(ellipse at 85% 68%,#ffe7d5,transparent 60%); }
-[data-hero-theme="second-loan"] { --hero-base:#f4f7fd;--hero-art:linear-gradient(155deg,transparent 48%,#2a55cf08 48% 62%,transparent 62% 67%,#2a55cf0b 67% 80%,transparent 80%),radial-gradient(ellipse at 10% 15%,#fff1e6,transparent 60%); }
 /* People: editorial verticals, a portrait halo, and a quiet paper texture. */
 [data-hero-theme="team"] { --hero-base:#faf8f5;--hero-art:repeating-linear-gradient(90deg,transparent 0 159px,#1d3f6f07 160px 161px),radial-gradient(ellipse at 50% 0%,#fff0e2,transparent 72%); }
 [data-hero-theme="director"] { --hero-base:#f3f6fb;--hero-art:radial-gradient(circle at 80% 50%,#dce5f44d 0 190px,transparent 191px 220px,#2a55cf0c 221px 223px,transparent 224px),linear-gradient(110deg,#fcfaf7,transparent); }

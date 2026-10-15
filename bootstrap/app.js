@@ -12,7 +12,7 @@
 
   /* ---------- data ---------- */
   const DESTINATIONS = [
-    { code: 'UK', cc: 'gb', name: 'United Kingdom', note: 'CAS guidance available' },
+    { code: 'UK', cc: 'gb', name: 'United Kingdom', note: 'University admissions guidance' },
     { code: 'US', cc: 'us', name: 'United States', note: 'F-1 pathways' },
     { code: 'CA', cc: 'ca', name: 'Canada', note: 'Study permit routes' },
     { code: 'AU', cc: 'au', name: 'Australia', note: 'Subclass 500' },
@@ -40,7 +40,6 @@
     { q: 'How Do I Apply To Become An Agent?', a: 'Use the education agent application form on this page to submit company details, director information, references, and agent verification documents.' },
     { q: 'Do You Work With Individual Counsellors Or Only Companies?', a: 'We can consider both, depending on partner type and verification. Submit the form and we will advise the most suitable onboarding route.' },
     { q: 'Which Destinations Can I Recruit For?', a: 'You can recruit for our targeted destinations: UK, USA, Canada, Australia, Ireland, China, and New Zealand. Availability depends on student profile and intake.' },
-    { q: 'Do You Provide Visa Support?', a: 'We provide visa-readiness guidance and checklist support for visa-required routes. For UK routes, we can provide CAS guidance where applicable. Final decisions are made by relevant authorities.' },
     { q: 'How Do I Track My Students?', a: 'Approved partners use the agent portal with application tracking and structured stages to keep pipelines organised and reduce repeated follow-ups.' },
     { q: 'Is There A Minimum Number Of Students Required?', a: 'Requirements vary by partner type. If you are new, we focus on quality, process, and compliance first.' },
     { q: 'How Long Does Approval Take?', a: 'Approval times vary depending on how quickly verification documents are completed. Submitting complete information helps speed up review.' },

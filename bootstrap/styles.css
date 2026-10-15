@@ -650,18 +650,6 @@ select.cf-input { appearance:none; background-image:url("data:image/svg+xml,%3Cs
 .office-tile .ot-tag { font-size:12px; font-weight:600; color: var(--brand-600); text-transform:uppercase; letter-spacing:.04em; margin-top:3px; }
 .office-tile .ot-num { position:absolute; top:16px; right:20px; font-family:"Kanit",sans-serif; font-weight:700; font-size:34px; color:#eef2f6; line-height:1; }
 
-/* ===== Immigration & Visa page ===== */
-.visa-card { position:relative; background:#fff; border:1px solid rgba(226,232,240,.85); border-radius:24px; padding:26px; box-shadow:0 44px 90px -42px rgba(10,26,51,.45); }
-.visa-card .vc-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:18px; }
-.visa-doc { display:flex; align-items:center; gap:12px; padding:12px 14px; border-radius:13px; border:1px solid #eef1f5; background:#fbfcfe; margin-bottom:9px; }
-.visa-doc .vd-check { width:26px; height:26px; border-radius:8px; flex:none; display:grid; place-items:center; font-size:14px; color:#fff; background:#14b8a6; }
-.visa-doc.pending .vd-check { background:#e2e8f0; color:#94a3b8; }
-.visa-doc .vd-t { font-size:13.5px; font-weight:500; color:var(--navy-900); }
-.visa-doc.pending .vd-t { color:#94a3b8; }
-.visa-progress { height:7px; border-radius:99px; background:#eef2f6; overflow:hidden; margin-top:4px; }
-.visa-progress span { display:block; height:100%; border-radius:99px; background: var(--orange-grad); width:70%; }
-.visa-float { position:absolute; right:-16px; bottom:-18px; background: var(--navy-950); color:#fff; border-radius:16px; padding:13px 18px; box-shadow:0 26px 50px -22px rgba(0,0,0,.6); }
-
 .issue-card { position:relative; overflow:hidden; height:100%; background:#fff; border:1px solid rgba(226,232,240,.85); border-radius:18px; padding:24px; transition: transform .3s cubic-bezier(.16,1,.3,1), box-shadow .3s, border-color .3s; }
 .issue-card:hover { transform: translateY(-5px); border-color: rgba(244,123,32,.4); box-shadow:0 26px 50px -26px rgba(244,123,32,.35); }
 .issue-card .ic-ic { width:48px; height:48px; border-radius:13px; display:grid; place-items:center; font-size:22px; color:#dd6610; background:#fff4ea; border:1px solid #ffe3c9; }

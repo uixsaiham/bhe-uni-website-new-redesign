@@ -4,7 +4,7 @@
   let timer;
   document.addEventListener('click', (event) => {
     const link = event.target.closest('a');
-    if (!link) return;
+    if (!link || link.hasAttribute('data-allow-external')) return;
     const url = new URL(link.href, location.href);
     if (!link.hasAttribute('data-local-preview') &&
         (url.origin === location.origin || !['http:', 'https:', 'mailto:', 'tel:'].includes(url.protocol))) return;
