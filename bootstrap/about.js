@@ -291,6 +291,18 @@
 
 /* ---------- Free Consultation Modal Integration ---------- */
 (function() {
+  // Blog details use a permanent inline enquiry form instead of a popup.
+  const inlineEnquiry = document.getElementById('blogEnquiryForm');
+  if (inlineEnquiry) {
+    document.querySelectorAll('button[aria-label="Consultation"], a[href*="consultation"]').forEach(el => {
+      el.addEventListener('click', event => {
+        event.preventDefault();
+        inlineEnquiry.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start'});
+        inlineEnquiry.querySelector('input').focus({preventScroll: true});
+      });
+    });
+    return;
+  }
   const modalHTML = `
     <div class="consult-modal-overlay" id="consultModal">
       <div class="consult-modal-card">

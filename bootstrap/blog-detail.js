@@ -4,10 +4,11 @@
   const slug=new URLSearchParams(location.search).get('slug')||defaultSlug;
   const post=(window.BHE_BLOG_POSTS||[]).find(item=>item.slug===slug);
   const article=document.querySelector('#articleContent');
+  if(post)document.querySelector('.bd-breadcrumb>span').textContent=post.title;
   if(post && slug!==defaultSlug){
     document.title=post.title+' — BHE UNI Journal';
     document.querySelector('.bd-heading h1').textContent=post.title;
-    document.querySelector('.bd-breadcrumb>span').textContent=post.category;
+    document.querySelector('.bd-breadcrumb>span').textContent=post.title;
     const cover=document.querySelector('.bd-cover>img');cover.src=post.image;cover.alt=post.title;
     document.querySelector('.bd-date>span').textContent='Published '+new Date(post.date+'T12:00:00').toLocaleDateString('en-GB',{day:'2-digit',month:'long',year:'numeric'});
     try {
@@ -78,6 +79,17 @@
   document.querySelectorAll('[data-share]').forEach(link=>{link.href=shareTargets[link.dataset.share];});
 
   const escape=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-  const related=(window.BHE_BLOG_POSTS||[]).filter(post=>post.category===(document.querySelector('.bd-breadcrumb>span').textContent)&&post.slug!==slug).slice(0,3);
+  const postCategory=post?.category;
+  const related=(window.BHE_BLOG_POSTS||[]).filter(post=>post.category===postCategory&&post.slug!==slug).slice(0,3);
+  const sidebarPosts=(window.BHE_BLOG_POSTS||[])
+    .filter(item=>item.slug!==slug)
+    .sort((a,b)=>Number(b.category===postCategory)-Number(a.category===postCategory)||b.date.localeCompare(a.date))
+    .slice(0,3);
+  document.querySelector('#sidebarRelatedArticles').innerHTML=sidebarPosts.map(item=>`
+    <a class="bd-related-item" href="blog-detail.html?slug=${encodeURIComponent(item.slug)}">
+      <img src="${escape(item.image)}" alt="" loading="lazy" width="114" height="54">
+      <span><strong>${escape(item.title)}</strong><time datetime="${escape(item.date)}">${new Date(item.date+'T12:00:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}</time></span>
+    </a>`).join('');
+  document.querySelector('.bd-related-sidebar').hidden=!sidebarPosts.length;
   document.querySelector('#relatedArticles').innerHTML=related.map(post=>`<article class="blog-card"><a class="blog-card-photo" href="blog-detail.html?slug=${encodeURIComponent(post.slug)}" tabindex="-1" aria-hidden="true"><img src="${escape(post.image)}" alt="" loading="lazy"></a><div class="blog-card-body"><span class="blog-tag">${escape(post.category)}</span><h3><a href="blog-detail.html?slug=${encodeURIComponent(post.slug)}">${escape(post.title)}</a></h3><p>${escape(post.description)}</p><div class="blog-card-foot"><span class="blog-card-date">${new Date(post.date+'T12:00:00').toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'})}</span><a class="blog-read" href="blog-detail.html?slug=${encodeURIComponent(post.slug)}" aria-label="Read ${escape(post.title)}">Read story <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></div></article>`).join('');
 })();

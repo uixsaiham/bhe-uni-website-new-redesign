@@ -29,22 +29,4 @@
     const status=$('enquiryStatus');status.textContent='Your details passed validation. This is a local preview, so no enquiry has been sent.';status.hidden=false;status.focus();
   });
   refresh();
-  const dialog=$('blogEnquiryDialog');
-  const fromBlogListing=new URLSearchParams(location.search).get('from')==='blogs'||(()=>{
-    try{return new URL(document.referrer).pathname.endsWith('/blogs.html');}catch{return false;}
-  })();
-  let elapsed=false,scrolled=fromBlogListing||window.scrollY>60,shown=false;
-  function maybeOpen(){
-    if(!elapsed||!scrolled||shown)return;
-    // Wait until another native dialog closes rather than stacking prompts.
-    if(document.querySelector('dialog[open]'))return;
-    dialog.showModal();shown=true;
-    window.removeEventListener('scroll',onScroll);
-  }
-  function onScroll(){if(window.scrollY>60){scrolled=true;maybeOpen();}}
-  window.addEventListener('scroll',onScroll,{passive:true});
-  setTimeout(()=>{elapsed=true;maybeOpen();},2000);
-  document.addEventListener('close',maybeOpen,true);
-  $('closeBlogEnquiry').addEventListener('click',()=>dialog.close());
-  dialog.addEventListener('click',event=>{if(event.target===dialog){const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();}});
 })();
