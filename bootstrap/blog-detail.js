@@ -1,5 +1,14 @@
 (async () => {
   'use strict';
+  // Keep the reading guide just below the fixed navigation, including after resize.
+  const header=document.querySelector('#siteHeader');
+  function syncHeaderOffset(){
+    const offset=Math.ceil(header?.getBoundingClientRect().bottom||70)+12;
+    document.documentElement.style.setProperty('--bd-toc-top',`${offset}px`);
+  }
+  syncHeaderOffset();
+  if(header && 'ResizeObserver' in window)new ResizeObserver(syncHeaderOffset).observe(header);
+  window.addEventListener('resize',syncHeaderOffset);
   const defaultSlug='can-i-go-to-university-without-a-levels';
   const slug=new URLSearchParams(location.search).get('slug')||defaultSlug;
   const post=(window.BHE_BLOG_POSTS||[]).find(item=>item.slug===slug);
