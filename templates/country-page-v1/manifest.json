@@ -1,0 +1,31 @@
+{
+  "name": "BHE UNI Country Page v1",
+  "reference": "source/study-in-spain.html",
+  "sectionGapPx": 80,
+  "files": [
+    "about.js",
+    "assets/Container.png",
+    "assets/bhe-uni-logo-white.png",
+    "assets/bhe-uni-logo.png",
+    "assets/hero/uk-study-bg.png",
+    "assets/spain/graduate-career.svg",
+    "assets/spain/graduate-cv.svg",
+    "assets/spain/graduate-guidance.svg",
+    "assets/spain/happy-students-transparent.png",
+    "assets/spain/help-feature-1.svg",
+    "assets/spain/help-feature-2.svg",
+    "assets/spain/help-feature-3.svg",
+    "assets/spain/help-feature-4.svg",
+    "assets/spain/help-feature-5.svg",
+    "assets/spain/help-feature-6.svg",
+    "assets/spain/madrid.jpg",
+    "assets/spain/student-spanish-flag.png",
+    "assets/spain/students.jpg",
+    "hero-themes.css",
+    "local-preview.js",
+    "study-country.css",
+    "study-country.js",
+    "study-in-spain.html",
+    "styles.css"
+  ]
+}

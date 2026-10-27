@@ -1,0 +1,32 @@
+/* Shared brand palette; each hero has its own background composition. */
+[data-hero-theme] { position:relative;isolation:isolate;overflow:hidden;background:var(--hero-base,#f7f9fc); }
+[data-hero-theme]::before { content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:1;background:var(--hero-art,none);background-size:auto;background-repeat:no-repeat;mask-image:none;-webkit-mask-image:none; }
+[data-hero-theme]::after { content:none; }
+[data-hero-theme]>.container-xxl { position:relative;z-index:2; }
+[data-hero-theme]>.hero-grid,[data-hero-theme]>.hero-bloom,[data-hero-theme]>.hero-tick,[data-hero-theme]>.hero-swirl { display:none; }
+/* About: broad concentric arcs and a restrained orange horizon. */
+[data-hero-theme="we-are"] { --hero-base:#f3f6fb;--hero-art:radial-gradient(circle at 90% 45%,transparent 0 190px,#254da90c 191px 193px,transparent 194px 245px,#254da90c 246px 248px,transparent 249px 300px,#254da90c 301px 303px,transparent 304px),linear-gradient(160deg,transparent 55%,#ffead975); }
+/* Student support: a soft blue journey sweeping toward the imagery. */
+[data-hero-theme="international-student-support"] { --hero-base:#f6f9fd;--hero-art:radial-gradient(ellipse at 94% 105%,#dceafa 0 38%,transparent 38.2%),radial-gradient(ellipse at 92% 104%,transparent 0 44%,#2a55cf18 44.2% 44.5%,transparent 44.7%),linear-gradient(110deg,#fffaf5,transparent 65%); }
+/* Accommodation: warm architectural blocks. */
+[data-hero-theme="accommodation"] { --hero-base:#fff9f3;--hero-art:linear-gradient(90deg,transparent 67%,#eedbc44d 67% 68%,transparent 68% 86%,#eedbc44d 86% 87%,transparent 87%),linear-gradient(0deg,transparent 24%,#eedbc44d 24% 24.3%,transparent 24.3% 72%,#eedbc44d 72% 72.3%,transparent 72.3%),radial-gradient(ellipse at 85% 45%,#f7e4d4,transparent 60%); }
+/* People: editorial verticals, a portrait halo, and a quiet paper texture. */
+[data-hero-theme="team"] { --hero-base:#faf8f5;--hero-art:repeating-linear-gradient(90deg,transparent 0 159px,#1d3f6f07 160px 161px),radial-gradient(ellipse at 50% 0%,#fff0e2,transparent 72%); }
+[data-hero-theme="director"] { --hero-base:#f3f6fb;--hero-art:radial-gradient(circle at 80% 50%,#dce5f44d 0 190px,transparent 191px 220px,#2a55cf0c 221px 223px,transparent 224px),linear-gradient(110deg,#fcfaf7,transparent); }
+[data-hero-theme="author"] { --hero-base:#fdfaf6;--hero-art:repeating-linear-gradient(0deg,transparent 0 39px,#b2997910 40px 41px),linear-gradient(115deg,#fffdfa 35%,#f3e8dd); }
+/* Careers and partnerships: upward steps and interlocking circles. */
+[data-hero-theme="careers"] { --hero-base:#f5f8fc;--hero-art:linear-gradient(135deg,transparent 59%,#dce6f1 59% 72%,transparent 72%),linear-gradient(135deg,transparent 77%,#fae4d2 77% 89%,transparent 89%); }
+[data-hero-theme="become-an-agent"] { --hero-base:#f7f9fc;--hero-art:radial-gradient(circle at 82% 36%,transparent 0 145px,#2a55cf12 146px 149px,transparent 150px),radial-gradient(circle at 70% 68%,transparent 0 145px,#f47b201a 146px 149px,transparent 150px),radial-gradient(ellipse at 100% 50%,#e5ecf7,transparent 65%); }
+/* Course discovery: an open-book fan, with space around the text. */
+[data-hero-theme="all-courses"] { --hero-base:#f5f7fd;--hero-art:conic-gradient(from 235deg at 90% 100%,#2a55cf06 0 20deg,transparent 20deg 40deg,#f47b2009 40deg 60deg,transparent 60deg 80deg,#2a55cf0a 80deg 100deg,transparent 100deg); }
+/* Contact: dotted waypoints contained on the image side. */
+[data-hero-theme="contact"] { --hero-base:#fafbfe;--hero-art:radial-gradient(circle at 100% 0%,#e3edf9 0 35%,transparent 35.2%),radial-gradient(circle at 90% 90%,#fff0e1,transparent 40%); }
+[data-hero-theme="contact"]::after { content:"";position:absolute;right:0;top:0;width:40%;height:100%;z-index:0;pointer-events:none;background-image:radial-gradient(#1d3f6f15 1px,transparent 1px);background-size:22px 22px; }
+/* Photo-backed universities retain a readable branded overlay. */
+[data-hero-theme="universities"] { --hero-base:#0a1a33; }
+[data-hero-theme="universities"] .uni-hero-overlay { background:linear-gradient(105deg,#06122aed 0%,#0f2747b3 52%,#16315a66 100%); }
+/* Detail headers retain white text over rich navy variations. */
+[data-hero-theme="job-details"] { --hero-base:#0a1a33;--hero-art:linear-gradient(135deg,transparent 48%,#ffffff05 48% 65%,transparent 65% 69%,#ffffff07 69% 84%,transparent 84%),radial-gradient(ellipse at 100% 15%,#f47b202b,transparent 55%); }
+[data-hero-theme="course-details"] { --hero-base:#0a1a33;--hero-art:radial-gradient(ellipse at 90% 120%,#2452cf66,transparent 70%),linear-gradient(125deg,transparent 50%,#ffffff06 50% 70%,transparent 70%); }
+[data-hero-theme="university-details"] { --hero-base:#0f2747;--hero-art:radial-gradient(circle at 95% 50%,transparent 0 90px,#ffffff0b 91px 93px,transparent 94px 140px,#ffffff0b 141px 143px,transparent 144px),linear-gradient(105deg,#06122a,transparent); }
+@media(max-width:767px) { [data-hero-theme]::before { opacity:.7; } }

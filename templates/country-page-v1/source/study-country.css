@@ -1,0 +1,194 @@
+/* Country guide: shared BHE UNI brand tokens and Bootstrap layout. */
+.spain-page{--country-line:#e4eaf1;color:var(--navy-900);font-weight:300}.spain-page p{color:#5b6b82;line-height:1.75;font-size:16px}.spain-page strong,.spain-page b{font-weight:500;color:var(--navy-800)}.spain-page h2{font-size:clamp(28px,3vw,40px);font-weight:600;line-height:1.18;letter-spacing:-.025em;color:var(--navy-900);margin-bottom:20px}.spain-page h4{font-size:23px;font-weight:500;line-height:1.3}.spain-page h5{font-size:20px;font-weight:500}.spain-page a:not(.btn){color:#254da9}.spain-page a:hover{color:var(--brand-600)}.spain-page .text-muted{color:#5b6b82!important}.spain-page [id]{scroll-margin-top:140px}.spain-page .hero-section{padding:136px 0 62px;background:radial-gradient(ellipse at 85% 25%,#fff0df 0,transparent 46%),linear-gradient(120deg,#f6f9ff,#fff 65%)}.spain-page .hero-section>.container-xxl>.row{--bs-gutter-x:70px}.spain-page .hero-section h1{font-size:clamp(40px,4.4vw,64px);line-height:1.08;font-weight:600;letter-spacing:-.035em;margin:20px 0}.spain-page .hero-section p{font-size:18px;max-width:590px}.spain-page .hero-section .btn{font-size:15px}.spain-hero-art{position:relative;isolation:isolate}.spain-hero-art:before{content:'';position:absolute;inset:12px -12px -12px 12px;background:var(--brand-100);border-radius:28px;transform:rotate(3deg);z-index:-1}.spain-hero-art>img{width:100%;height:390px;object-fit:cover;border-radius:24px;border:5px solid white}.spain-photo-label{position:absolute;bottom:20px;left:20px;right:20px;padding:15px 20px;background:#ffffffed;border-radius:14px;font-size:17px;font-weight:500;text-align:left;box-shadow:0 8px 25px #06122a12}.spain-photo-label i{color:var(--brand-500);margin-right:6px}.spain-photo-label span{display:block;color:#5b6b82;font-weight:300;font-size:13px;margin-top:3px}.spain-jump{border-block:1px solid var(--country-line);background:white}.spain-jump>div{display:flex;gap:36px;overflow:auto;white-space:nowrap}.spain-jump a{padding:22px 0;text-decoration:none;font-size:14px;font-weight:400;color:var(--navy-800)!important}.spain-jump a:hover{color:var(--brand-600)!important}.spain-page .why-study-wrapper{margin-top:64px;border-radius:24px;background:#f8fafc;border:1px solid var(--country-line);padding:36px}.spain-page .why-study-image-container{position:relative;padding:0!important}.why-study-image{width:100%;height:370px;object-fit:cover;border-radius:20px}.spain-page .top-choice-badge{position:relative;margin:-48px 18px 0;padding:20px;background:var(--navy-950);color:white;border-radius:16px;text-align:left}.spain-page .top-choice-badge h3{color:white;font-size:24px;font-weight:500}.spain-page .top-choice-badge p{color:#c1cddd;font-size:14px;margin:0}.spain-page .why-study-content{padding-left:30px}.spain-page .why-study-content p{font-size:15px}.spain-page .why-study-content p:last-child{margin-bottom:0}.spain-page .page-for-card,.spain-page .help-card{height:100%;padding:28px;background:white;border:1px solid var(--country-line);border-radius:20px;text-align:left;transition:transform .2s,border-color .2s}.spain-page .page-for-card:hover,.spain-page .help-card:hover{transform:translateY(-4px);border-color:var(--brand-200)}.spain-page .page-for-card p{font-size:15px;margin:20px 0 0}.spain-icon{display:inline-grid;place-items:center;width:52px;height:52px;border-radius:15px;background:var(--brand-50);border:1px solid var(--brand-100);color:var(--brand-600);font-size:25px;margin-bottom:18px}.spain-page .page-for-banner{background:var(--brand-50);border:1px solid var(--brand-100);border-radius:14px;padding:20px 28px;margin:28px 0 64px;box-shadow:none!important}.spain-page .page-for-banner p{margin:0;font-size:14px;font-weight:400}.spain-routes{background:#f8fafc;border-block:1px solid var(--country-line);padding:54px 0}.spain-page .text-center>p.mx-auto{max-width:820px}.study-routes-carousel-container{overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:0;--bs-gutter-x:24px;padding:0 0 22px}.study-route-card-wrapper{scroll-snap-align:start;padding-top:0}.spain-page .study-route-card-wrapper>.card{border:1px solid var(--country-line)!important;border-top:3px solid var(--brand-500)!important;border-radius:20px!important;box-shadow:none!important;padding:30px!important}.spain-page .study-route-card-wrapper h4{min-height:60px}.spain-page .study-route-card-wrapper p{font-size:14px}.spain-check{color:var(--brand-500);font-size:17px;margin-right:12px;flex:none;line-height:1.6}.spain-page #prev-study-route,.spain-page #next-study-route{width:42px;height:42px;z-index:2;background:white;border:1px solid var(--country-line)}.spain-page #prev-study-route{left:-14px}.spain-page #next-study-route{right:-14px}.requirements-tabs{gap:12px}.spain-page .requirements-tabs .nav-link{padding:20px 24px;text-align:left;border:1px solid var(--country-line);border-radius:14px;background:#f8fafc;color:var(--navy-800);font-size:15px}.spain-page .requirements-tabs .nav-link.active{background:var(--navy-950);color:white;border-color:var(--navy-950);box-shadow:inset 4px 0 var(--brand-500)}.requirements-content-box{border:1px solid var(--country-line);border-radius:20px;padding:38px;background:#fff;min-height:292px;display:flex;align-items:center}.requirements-content-box p{margin:0}.costs-section-wrapper{background:#f8fafc;border:1px solid var(--country-line);border-radius:24px;margin:30px 0 64px}.spain-page .costs-section-wrapper .border-start{border-color:var(--brand-500)!important;border-width:3px!important}.spain-page .costs-section-wrapper .bg-white{border:1px solid var(--country-line);box-shadow:none!important}.working-wrapper{padding:54px 0;background:var(--navy-950)}.spain-page .working-wrapper h2{color:white}.spain-page .working-wrapper p,.spain-page .working-wrapper span{color:#bcc9dc}.spain-page .working-wrapper .text-dark{color:white!important}.spain-work-photo{width:100%;height:360px;object-fit:cover;border-radius:24px}.working-blue-bar{display:none}.spain-page .help-card h4{font-size:20px;margin:0}.spain-page .help-card{box-shadow:none!important;min-height:180px}.support-location-wrapper{border:1px solid var(--country-line);background:#f8fafc;padding:36px;border-radius:24px;box-shadow:none!important}.spain-support-photo{width:100%;height:300px;object-fit:cover;border-radius:20px}.spain-faq{padding-top:54px;padding-bottom:54px;display:grid;grid-template-columns:.85fr 1.3fr;gap:60px}.spain-section-heading .eyebrow{margin-bottom:18px}.spain-faq details{border:1px solid var(--country-line);border-radius:16px;margin-bottom:14px;background:#fff;overflow:hidden}.spain-faq summary{display:flex;gap:18px;align-items:center;padding:22px;cursor:pointer;list-style:none;font-weight:400;font-size:16px}.spain-faq summary::-webkit-details-marker{display:none}.spain-faq summary>span:nth-child(2){flex:1}.spain-faq-number{color:var(--brand-500);font-size:17px}.spain-faq summary>i{color:var(--brand-500)}.spain-faq details[open]{border-color:var(--brand-200);background:#fffcf9}.spain-faq details[open] summary>i{transform:rotate(45deg)}.spain-faq details>p{padding:0 24px 24px 60px;margin:0;font-size:14px}.spain-page .cta-banner{background:radial-gradient(ellipse at 90% 0,#1d3f6f,var(--navy-950) 65%);padding:64px 0;margin-top:20px!important}.spain-page .cta-banner h2{color:white}.spain-page .cta-banner p{color:#c1cddd}.spain-page .cta-banner .btn-outline-white{border:1px solid #ffffff40;color:#fff;font-size:13px;font-weight:400}.spain-page .cta-banner .btn-outline-white:hover{background:#ffffff15}.spain-page .cta-banner .my-5{margin:28px 0!important}.spain-page :focus-visible{outline:3px solid var(--brand-400);outline-offset:4px}
+@media(min-width:1400px){.spain-page .container-xxl{max-width:1240px}}
+@media(max-width:991px){.spain-page .hero-section{padding-top:112px}.spain-page .hero-section>.container-xxl>.row{--bs-gutter-x:30px}.spain-hero-art>img{height:340px}.spain-page .why-study-content{padding:24px 0 0!important}.why-study-image{height:300px}.spain-page .why-study-wrapper{padding:26px}.spain-faq{grid-template-columns:1fr;gap:20px}.spain-work-photo{margin-top:28px;height:320px}.spain-support-photo{margin-bottom:28px}.spain-page .study-route-card-wrapper{min-width:50%}.spain-jump>div{gap:24px}}
+@media(max-width:767px){.spain-page .hero-section{padding:108px 0 40px}.spain-page .hero-section .text-end{margin-top:36px}.spain-hero-art{max-width:520px;margin:auto}.spain-page .hero-section h1{font-size:46px}.spain-page .hero-section p{font-size:16px}.spain-page .hero-section .btn{white-space:normal}.spain-jump a{padding:16px 0}.spain-page .why-study-wrapper{margin-top:36px;padding:22px}.spain-page .why-study-content{padding-right:0!important}.spain-page .why-study-image-container+.col-lg-8{margin-top:0!important}.spain-page .page-for-card{padding:22px}.spain-page .study-route-card-wrapper{min-width:88%;max-width:88%}.spain-page #prev-study-route,.spain-page #next-study-route{display:none!important}.requirements-content-box{min-height:240px;padding:26px}.support-location-wrapper{padding:22px}.spain-page .support-location-wrapper .ps-lg-5{padding-left:12px!important}.spain-faq{padding-top:30px;padding-bottom:30px}.spain-faq summary{padding:18px;font-size:15px;gap:12px}.spain-faq details>p{padding-left:46px}.spain-page .cta-banner{padding:44px 0}.spain-routes{padding:36px 0}.spain-page .mt-5{margin-top:36px!important}}
+@media(prefers-reduced-motion:reduce){.spain-page *{scroll-behavior:auto!important;transition:none!important}}
+
+/* Reference country hero: original background and student artwork. */
+.spain-page .hero-section{padding:40px 0;background:url("assets/hero/uk-study-bg.png") center/cover no-repeat}
+.spain-page .hero-section>.container-xxl{max-width:1344px}
+.spain-page .hero-section>.container-xxl>.row{--bs-gutter-x:24px;min-height:398px}
+.spain-page .hero-section h1{font-size:46px;line-height:1.2;font-weight:600;letter-spacing:-.5px;color:#20336f;margin:0 0 28px}
+.spain-page .hero-section p{font-size:16px;line-height:1.5;font-weight:400;color:#24272c;max-width:755px;margin:0 0 33px!important}
+.spain-page .hero-section .btn{display:inline-flex;align-items:center;justify-content:center;min-height:53px;padding:13px 40px;border:0;border-radius:999px;background:linear-gradient(105deg,#28397f,#2d7bfa);font-size:16px;font-weight:500;color:white;box-shadow:none}
+.spain-hero-art{max-width:507px;margin-left:auto}
+.spain-hero-art:before{display:none}
+.spain-hero-art>img{display:block;width:100%;height:auto;object-fit:contain;border:0;border-radius:0}
+@media(max-width:1199px){.spain-page .hero-section h1{font-size:38px}}
+@media(max-width:767px){.spain-page .hero-section{padding:40px 0}.spain-page .hero-section h1{font-size:34px}.spain-page .hero-section .btn{font-size:14px;padding-inline:24px}.spain-hero-art{margin-inline:auto}.spain-page .hero-section .text-end{margin-top:30px}}
+
+.spain-page{padding-top:76px}
+
+/* Spain destination backdrop and student portrait. */
+.spain-page .hero-section{position:relative;isolation:isolate;overflow:hidden;background:#fffcf7}
+.spain-page .hero-section::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,#fffcf7 0%,#fffcf7ed 34%,#fffcf7b8 65%,#fffcf770 100%),url("assets/spain/madrid.jpg") center 48%/cover no-repeat}
+.spain-page .hero-section::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 90% 10%,#ffd34a35,transparent 50%),linear-gradient(0deg,#fffcf7,transparent 38%)}
+.spain-hero-art{width:calc(100% - 24px);max-width:480px;margin:14px 12px 14px auto;position:relative;isolation:isolate}
+.spain-hero-art:before{display:block;content:"";position:absolute;inset:-4px;border-radius:26px;background:linear-gradient(#aa151b 0 25%,#f1bf00 25% 75%,#aa151b 75%);transform:rotate(5deg);z-index:-1}
+.spain-hero-art>img{width:100%;height:357px;object-fit:cover;object-position:center 38%;border-radius:23px;border:0;box-shadow:0 12px 32px #6a35151a}
+.spain-hero-flag{position:absolute;bottom:18px;left:18px;display:flex;align-items:center;gap:10px;padding:10px 16px;border-radius:999px;background:#fffffff2;box-shadow:0 4px 20px #00000012;font-size:26px;line-height:1.2}
+.spain-hero-flag>span{color:#20336f;font-size:14px;font-weight:500}
+@media(max-width:767px){.spain-page .hero-section::before{background:linear-gradient(#fffcf7ef,#fffcf7b8),url("assets/spain/madrid.jpg") center/cover no-repeat}.spain-hero-art{margin:14px auto}.spain-hero-art>img{height:330px}}
+
+/* Why Spain: inset destination photo with an overlapping navy badge. */
+.spain-page #why-spain{position:relative;isolation:isolate;margin-top:80px;margin-bottom:85px!important;padding:24px;background:#fcfaf9;border:0;border-radius:48px;box-shadow:0 5px 35px #57412b04}
+.spain-page #why-spain>.row{align-items:start!important;--bs-gutter-x:48px}
+.spain-page #why-spain .why-study-image-container{position:relative;padding:0!important;margin-bottom:-60px}
+.spain-page #why-spain .why-study-image{display:block;width:100%;height:498px;object-fit:cover;object-position:48% center;border-radius:22px;box-shadow:0 10px 28px #20336f08}
+.spain-page #why-spain .top-choice-badge{position:absolute;right:-64px;bottom:-35px;left:auto;margin:0;min-width:276px;padding:16px 22px;background:#243b80;border-radius:16px;text-align:center;box-shadow:0 14px 24px #20336f26;z-index:2}
+.spain-page #why-spain .top-choice-badge h3{font-size:30px;line-height:1.2;font-weight:600;letter-spacing:-.4px;margin:0 0 10px!important;color:white}
+.spain-page #why-spain .top-choice-badge p{font-size:15px;font-weight:400;line-height:1.4;color:white;margin:0}
+.spain-page #why-spain .why-study-content{padding:0 8px 10px 6px!important;margin:0!important}
+.spain-page #why-spain h2{font-size:38px;line-height:1.2;letter-spacing:-.4px;color:#203c8c;margin:0 0 32px}
+.spain-page #why-spain .why-study-content p{font-size:15px;font-weight:400;line-height:1.9;color:#4a5870;margin:0 0 24px}
+.spain-page #why-spain .why-study-content p:last-child{margin-bottom:0}
+.spain-page #why-spain .why-study-content .fw-semibold{font-weight:600!important;margin-block:26px}
+@media(min-width:1400px){.spain-page>.container-xxl:has(#why-spain){max-width:1344px}}
+@media(max-width:1199px) and (min-width:992px){.spain-page #why-spain .top-choice-badge{right:-30px;min-width:230px}.spain-page #why-spain .top-choice-badge h3{font-size:25px}.spain-page #why-spain .why-study-image{height:550px}}
+@media(max-width:991px){.spain-page #why-spain{margin-top:45px;border-radius:30px;padding:24px;margin-bottom:40px!important}.spain-page #why-spain .why-study-image-container{max-width:480px;margin:0 auto 65px}.spain-page #why-spain .why-study-image{height:420px}.spain-page #why-spain .top-choice-badge{right:16px;min-width:230px}.spain-page #why-spain .why-study-content{padding:0!important}.spain-page #why-spain h2{font-size:32px;margin-bottom:24px}}
+@media(max-width:575px){.spain-page #why-spain{padding:20px;border-radius:24px}.spain-page #why-spain .why-study-image{height:360px}.spain-page #why-spain .top-choice-badge h3{font-size:26px}.spain-page #why-spain .why-study-content p{line-height:1.75}}
+
+.spain-page #study-routes-carousel{scrollbar-width:none!important;-ms-overflow-style:none}
+.spain-page #study-routes-carousel::-webkit-scrollbar{display:none!important;width:0;height:0}
+
+/* Spain entry requirements: vertical tabs and an outlined detail panel. */
+.spain-page #entry-requirements{padding-top:64px!important;padding-bottom:60px!important;margin-top:0!important}
+.spain-page #entry-requirements h2{font-size:clamp(28px,3vw,40px);font-weight:600!important;line-height:1.2;letter-spacing:-.6px;color:#213571}
+.spain-page #entry-requirements>.text-center{margin-bottom:48px!important}
+.spain-page #entry-requirements>.text-center p{color:#212529;font-size:16px;font-weight:400;line-height:1.6;margin-bottom:0}
+.spain-page #entry-requirements>.row{--bs-gutter-x:24px;align-items:stretch}
+.spain-page #entry-requirements .requirements-tabs{gap:12px}
+.spain-page #entry-requirements .requirements-tabs .nav-link{min-height:58px;padding:18px 24px;border:0;border-radius:16px;background:#fff;color:#172238;font-size:15px;font-weight:400;line-height:1.5;box-shadow:0 5px 24px #20336f05;transition:background .2s,color .2s,box-shadow .2s}
+.spain-page #entry-requirements .requirements-tabs .nav-link:hover{background:#fff8ef}
+.spain-page #entry-requirements .requirements-tabs .nav-link.active{background:linear-gradient(105deg,#ff7413,#ffb700);color:white;font-weight:500;box-shadow:0 9px 22px #ff8b171a}
+.spain-page #entry-requirements .col-md-8{height:auto!important}
+.spain-page #entry-requirements .requirements-content-box{min-height:268px;height:100%;padding:40px;border:1px solid #ffcc32;border-radius:30px;background:white;align-items:flex-start}
+.spain-page #entry-requirements .requirements-content-box p{font-size:16px;font-weight:400;line-height:1.55;color:#212529}
+.spain-page #entry-requirements .requirements-content-box strong{font-weight:500;color:inherit}
+@media(max-width:767px){.spain-page #entry-requirements{padding-top:40px!important;padding-bottom:40px!important}.spain-page #entry-requirements>.text-center{margin-bottom:28px!important}.spain-page #entry-requirements .requirements-content-box{padding:26px;min-height:240px;border-radius:24px}.spain-page #entry-requirements .requirements-tabs .nav-link{padding:16px 20px}}
+
+/* Costs and scholarships: warm section with a white support card. */
+.spain-page #costs{background:#fbf9f7;border:0;border-radius:24px;padding:48px!important;margin:24px 0 64px}
+.spain-page #costs h2{color:#213571;font-size:clamp(28px,3vw,40px);line-height:1.2;font-weight:600!important;letter-spacing:-.6px;margin-bottom:20px!important}
+.spain-page #costs>.text-center:first-child{margin-bottom:48px!important}
+.spain-page #costs>.text-center:first-child p{font-size:16px;font-weight:400;color:#6c757d!important;margin:0}
+.spain-page #costs p,.spain-page #costs span{font-size:16px;font-weight:400;line-height:1.55;color:#212529}
+.spain-page #costs b,.spain-page #costs .fw-semibold{font-weight:600!important;color:#212529}
+.spain-page #costs>.row{--bs-gutter-x:32px;margin-bottom:48px!important}
+.spain-page #costs .border-start{border-color:#ffb600!important;border-width:2px!important;padding-left:18px!important}
+.spain-page #costs>.bg-white{border:0;border-radius:18px!important;padding:48px!important;box-shadow:0 2px 4px #18243b0b!important;margin-bottom:28px!important}
+.spain-page #costs .spain-check{font-size:18px;line-height:1.4;color:#ff7413;margin-right:10px}
+.spain-page #costs>.bg-white>.d-flex{align-items:flex-start}
+.spain-page #costs>.bg-white>.d-flex.mb-3{margin-bottom:18px!important}
+.spain-page #costs>.text-center:last-child p{font-size:14px;line-height:1.6;color:#212529}
+.spain-page #costs small{font-size:inherit}
+@media(max-width:767px){.spain-page #costs{padding:28px 22px!important;margin:16px 0 40px;border-radius:20px}.spain-page #costs>.text-center:first-child{margin-bottom:30px!important}.spain-page #costs>.row{margin-bottom:30px!important}.spain-page #costs>.bg-white{padding:28px 22px!important}.spain-page #costs p,.spain-page #costs span{font-size:15px}}
+
+/* Working while studying: light split layout with a blue foundation strip. */
+.spain-page .working-wrapper{background:#f9f9fc;padding:34px 0 0;overflow:hidden}
+.spain-page .working-wrapper>.container-xxl>.row{align-items:stretch!important;--bs-gutter-x:48px;padding-top:0!important;padding-bottom:0!important}
+.spain-page .working-wrapper .col-lg-7{padding-bottom:26px}
+.spain-page .working-wrapper h2{color:#213571;font-size:clamp(28px,3vw,40px);font-weight:600!important;line-height:1.2;letter-spacing:-.6px;margin-bottom:28px!important}
+.spain-page .working-wrapper p,.spain-page .working-wrapper span{color:#212529;font-size:16px;font-weight:400;line-height:1.8}
+.spain-page .working-wrapper .fw-semibold{font-weight:600!important;color:#212529!important;line-height:1.5}
+.spain-page .working-wrapper .d-flex{align-items:flex-start}
+.spain-page .working-wrapper .d-flex span{font-size:15px;line-height:1.6}
+.spain-page .working-wrapper .spain-check{color:#ff7413;font-size:19px;line-height:1.3;margin-right:16px}
+.spain-page .working-wrapper .d-flex:last-child{margin-bottom:0!important}
+.spain-page .working-wrapper .col-lg-5{display:flex;align-items:flex-end;justify-content:center}
+.spain-page .spain-work-photo{display:block;width:100%;max-width:500px;height:390px;object-fit:cover;object-position:center 30%;border-radius:24px 24px 0 0;margin:0}
+.spain-page .working-blue-bar{display:block;height:50px;background:linear-gradient(100deg,#2853ad,#203980)}
+@media(max-width:991px){.spain-page .working-wrapper .col-lg-7{padding-bottom:30px}.spain-page .spain-work-photo{height:360px;max-width:520px;margin:0 auto}.spain-page .working-wrapper>.container-xxl>.row{--bs-gutter-x:24px}}
+@media(max-width:575px){.spain-page .working-wrapper{padding-top:30px}.spain-page .working-wrapper p{font-size:15px;line-height:1.75}.spain-page .spain-work-photo{height:320px}.spain-page .working-blue-bar{height:32px}}
+
+/* Education support: six centered cards with alternating brand icon tiles. */
+.spain-page #spain-help{padding-top:30px;padding-bottom:12px}
+.spain-page #spain-help>.text-center{margin-bottom:48px!important}
+.spain-page #spain-help h2{color:#213571;font-size:clamp(28px,3vw,40px);font-weight:600!important;line-height:1.2;letter-spacing:-.6px;margin-bottom:20px!important}
+.spain-page #spain-help>.text-center p{max-width:940px;font-size:16px;font-weight:400;line-height:1.65;color:#6c757d!important;margin-bottom:0}
+.spain-page #spain-help>.row{--bs-gutter-x:24px;--bs-gutter-y:24px}
+.spain-page #spain-help .help-card{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-height:232px;padding:36px 28px;border:1px solid #edf1f7;border-radius:24px;background:white;box-shadow:0 2px 4px #18243b0b!important}
+.spain-page #spain-help .spain-icon{flex:none;width:60px;height:60px;border:0;border-radius:13px;background:linear-gradient(105deg,#2d408e,#2e75ed);color:white;font-size:28px;margin-bottom:24px}
+.spain-page #spain-help .col-md-4:nth-child(2) .spain-icon,.spain-page #spain-help .col-md-4:nth-child(4) .spain-icon,.spain-page #spain-help .col-md-4:nth-child(6) .spain-icon{background:linear-gradient(105deg,#ff851b,#ffc400)}
+.spain-page #spain-help .help-card h4{max-width:345px;color:#25282b;font-size:24px;font-weight:600;line-height:1.25;margin:0;letter-spacing:-.3px}
+.spain-page #spain-help .help-card:hover{transform:translateY(-4px);border-color:#dce5f4}
+@media(max-width:991px) and (min-width:768px){.spain-page #spain-help .help-card{padding:28px 18px;min-height:250px}.spain-page #spain-help .help-card h4{font-size:21px}}
+@media(max-width:767px){.spain-page #spain-help{padding-top:12px}.spain-page #spain-help>.text-center{margin-bottom:30px!important}.spain-page #spain-help .help-card{min-height:210px;padding:30px 24px}.spain-page #spain-help .help-card h4{font-size:22px}}
+
+/* After graduation: open three-column layout. */
+.spain-page #spain-graduate{padding-top:64px!important;padding-bottom:64px!important;margin-top:0!important}
+.spain-page #spain-graduate h2{color:#213571;font-size:clamp(28px,3vw,40px);font-weight:600!important;line-height:1.2;letter-spacing:-.6px;margin-bottom:20px!important}
+.spain-page #spain-graduate>.text-center:first-child{margin-bottom:48px!important}
+.spain-page #spain-graduate>.text-center:first-child>p{max-width:1140px;color:#25282b;font-size:16px;font-weight:400;line-height:1.65}
+.spain-page #spain-graduate>.text-center:first-child>.fw-semibold{font-weight:600!important;margin-top:26px!important;margin-bottom:0}
+.spain-page #spain-graduate .spain-icon{width:64px;height:64px;background:#edf0fb;border:0;border-radius:15px;color:#263e91;font-size:28px;margin-bottom:18px}
+.spain-page #spain-graduate .row h5{color:#25282b;font-size:21px;font-weight:600!important;line-height:1.3;margin-bottom:18px!important}
+.spain-page #spain-graduate .row p{max-width:390px;margin:0 auto;color:#6c757d!important;font-size:16px;font-weight:400;line-height:1.55}
+.spain-page #spain-graduate>.row{--bs-gutter-x:32px;--bs-gutter-y:36px;margin-bottom:64px!important}
+.spain-page #spain-graduate>.text-center:last-child{margin-top:0!important}
+.spain-page #spain-graduate>.text-center:last-child h5{color:#25282b!important;font-size:20px;font-weight:600;line-height:1.5;margin:0}
+@media(max-width:767px){.spain-page #spain-graduate{padding-top:40px!important;padding-bottom:40px!important}.spain-page #spain-graduate>.text-center:first-child{margin-bottom:32px!important}.spain-page #spain-graduate>.row{margin-bottom:40px!important}.spain-page #spain-graduate>.text-center:last-child h5{font-size:18px}}
+.spain-page #spain-graduate .spain-graduate-icon{display:block;width:64px;height:64px;object-fit:contain;margin:0 auto 18px}
+.spain-page #spain-help .spain-help-icon{display:block;flex:none;width:60px;height:60px;object-fit:contain;margin:0 auto 24px}
+
+/* Local support: warm rounded split panel. */
+.spain-page #spain-support{padding:0 48px;border:0;border-radius:24px;background:#fbf9f7;box-shadow:0 2px 4px #18243b0b!important;overflow:hidden}
+.spain-page #spain-support>.row{min-height:458px;--bs-gutter-x:48px;align-items:center!important}
+.spain-page #spain-support .col-lg-5{align-self:stretch;display:flex;align-items:center;justify-content:center;padding-top:24px;padding-bottom:24px}
+.spain-page #spain-support .spain-support-photo{display:block;width:100%;height:410px;object-fit:cover;object-position:center;border-radius:20px;margin:0}
+.spain-page #spain-support .col-lg-7{padding-top:40px;padding-bottom:40px;padding-left:40px!important}
+.spain-page #spain-support h2{color:#213571;font-size:clamp(28px,3vw,40px);font-weight:600!important;line-height:1.2;letter-spacing:-.6px;margin-top:0!important;margin-bottom:28px!important}
+.spain-page #spain-support p{color:#25282b;font-size:16px;font-weight:400;line-height:1.6;margin-bottom:24px}
+.spain-page #spain-support p:last-child{margin-bottom:0}
+.spain-page #spain-support strong{color:inherit;font-weight:500}
+@media(max-width:991px){.spain-page #spain-support{padding:28px}.spain-page #spain-support>.row{--bs-gutter-x:24px;min-height:0}.spain-page #spain-support .col-lg-5{padding-top:0;padding-bottom:0}.spain-page #spain-support .spain-support-photo{height:340px;max-width:520px}.spain-page #spain-support .col-lg-7{padding:28px 12px 0!important}}
+@media(max-width:575px){.spain-page #spain-support{padding:22px;border-radius:20px}.spain-page #spain-support .spain-support-photo{height:280px}.spain-page #spain-support p{font-size:15px}}
+.spain-page #spain-support .col-lg-5{align-items:flex-end;padding-top:8px;padding-bottom:0}
+.spain-page #spain-support .spain-support-photo{height:458px;width:100%;object-fit:contain;object-position:center bottom;border-radius:0}
+@media(max-width:991px){.spain-page #spain-support .spain-support-photo{height:400px}.spain-page #spain-support .col-lg-5{padding-top:0}}
+@media(max-width:575px){.spain-page #spain-support .spain-support-photo{height:340px}}
+
+/* FAQ: full-width compact accordion with numbered badges. */
+.spain-page #faqs{display:block;padding-top:54px;padding-bottom:54px}
+.spain-page #faqs .spain-section-heading{margin-bottom:24px}
+.spain-page #faqs h2{font-size:clamp(25px,2.5vw,36px);font-weight:600;line-height:1.25;letter-spacing:-.4px;color:#293d8a;margin:0}
+.spain-page #faqs details{margin-bottom:12px;border:1px solid #e8ebef;border-radius:16px;background:#fff;overflow:hidden}
+.spain-page #faqs details:last-child{margin-bottom:0}
+.spain-page #faqs summary{min-height:64px;display:flex;align-items:center;gap:16px;padding:10px 22px 10px 18px;font-size:15px;font-weight:500;line-height:1.5;color:#202833}
+.spain-page #faqs .spain-faq-number{display:inline-grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border-radius:50%;background:conic-gradient(from 30deg,#fff9e8,#fff0e7,#eff7ff,#fff,#fff9e8);font-size:15px;font-weight:500;color:#142958}
+.spain-page #faqs summary>i{flex:none;font-size:20px;color:#ff9700;transition:transform .2s}
+.spain-page #faqs details[open]{border-color:#e1e6f0;background:#fff}
+.spain-page #faqs details[open] summary>i{transform:rotate(45deg)}
+.spain-page #faqs details>p{padding:2px 60px 22px 78px;margin:0;color:#5b6b82;font-size:15px;line-height:1.75}
+.spain-page #faqs summary:hover{background:#fdfdff}
+@media(max-width:575px){.spain-page #faqs{padding-top:36px;padding-bottom:36px}.spain-page #faqs summary{gap:12px;padding:10px 14px;font-size:14px}.spain-page #faqs .spain-faq-number{flex-basis:36px;width:36px;height:36px;font-size:13px}.spain-page #faqs details>p{padding:0 20px 20px 62px;font-size:14px}}
+
+/* Closing consultation banner. */
+.spain-page .cta-banner{background:radial-gradient(ellipse at 50% 50%,#2853ad 0,#214491 48%,#192f68 100%);padding:100px 0 104px;margin-top:0!important}
+.spain-page .cta-banner h2{color:#fff;font-size:clamp(28px,3vw,40px);font-weight:600!important;line-height:1.2;letter-spacing:-.5px;margin-bottom:28px!important}
+.spain-page .cta-banner p{color:#fff;font-size:16px;font-weight:400;line-height:1.6}
+.spain-page .cta-banner h2+p{max-width:800px;margin-bottom:0!important}
+.spain-page .cta-banner .my-5{margin:34px 0 36px!important}
+.spain-page .cta-banner .btn-brand{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 40px;border:0;border-radius:999px;background:linear-gradient(100deg,#ff771b,#ffca00);color:white;font-size:16px;font-weight:500;line-height:1.5;box-shadow:none}
+.spain-page .cta-banner .btn-brand:hover{background:linear-gradient(100deg,#f36b12,#f4bd00);transform:translateY(-1px)}
+.spain-page .cta-banner .mt-5{margin-top:48px!important}
+.spain-page .cta-banner .mt-5>p{margin-bottom:30px!important}
+.spain-page .cta-banner .d-flex{gap:24px!important}
+.spain-page .cta-banner .btn-outline-white{border:1px solid #fff;color:#fff;font-size:14px;font-weight:500;line-height:1.5;padding:9px 24px!important;border-radius:999px;background:transparent}
+.spain-page .cta-banner .btn-outline-white:hover{background:#ffffff18;color:white}
+@media(max-width:767px){.spain-page .cta-banner{padding:60px 0}.spain-page .cta-banner .btn-brand{padding:14px 24px;white-space:normal}.spain-page .cta-banner .d-flex{gap:12px!important}.spain-page .cta-banner .btn-outline-white{font-size:13px;padding:9px 18px!important}.spain-page .cta-banner .mt-5{margin-top:36px!important}}
+
+/* One shared section gap on every viewport; internal panel padding stays local. */
+main.spain-page{display:flex;flex-direction:column;gap:80px;padding-bottom:80px}
+main.spain-page>section,main.spain-page>div{margin-top:0!important;margin-bottom:0!important;flex-shrink:0}
+main.spain-page>.container-xxl{padding-top:0!important;padding-bottom:0!important}
+main.spain-page #why-spain,main.spain-page #costs{margin-top:0!important;margin-bottom:0!important}
+main.spain-page #entry-requirements,main.spain-page #spain-graduate,main.spain-page #spain-help,main.spain-page #faqs{padding-top:0!important;padding-bottom:0!important;margin-top:0!important;margin-bottom:0!important}
+main.spain-page .page-for-banner{margin-bottom:0!important}
+.spain-page .working-wrapper .spain-work-photo{height:auto;max-height:440px;width:100%;max-width:540px;object-fit:contain;object-position:center bottom;border-radius:0;margin:0}
+@media(max-width:991px){.spain-page .working-wrapper .spain-work-photo{max-height:380px;width:auto;max-width:100%;margin:0 auto}}
+/* Anchor the student cutout to the strip while the copy determines row height. */
+@media(min-width:992px){.spain-page .working-wrapper .col-lg-5{position:relative;min-height:400px;align-self:stretch}.spain-page .working-wrapper .spain-work-photo{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:calc(100% + 40px);max-width:none;height:auto;max-height:none}}
+.spain-page .working-wrapper>.container-xxl>.row{margin-bottom:0!important}
+@media(max-width:991px){.spain-page .working-wrapper .col-lg-5{margin-top:0;padding-bottom:0}.spain-page .working-wrapper .spain-work-photo{display:block;margin-bottom:0}}
