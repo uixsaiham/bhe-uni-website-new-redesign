@@ -192,3 +192,8 @@ main.spain-page .page-for-banner{margin-bottom:0!important}
 @media(min-width:992px){.spain-page .working-wrapper .col-lg-5{position:relative;min-height:400px;align-self:stretch}.spain-page .working-wrapper .spain-work-photo{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:calc(100% + 40px);max-width:none;height:auto;max-height:none}}
 .spain-page .working-wrapper>.container-xxl>.row{margin-bottom:0!important}
 @media(max-width:991px){.spain-page .working-wrapper .col-lg-5{margin-top:0;padding-bottom:0}.spain-page .working-wrapper .spain-work-photo{display:block;margin-bottom:0}}
+
+/* The closing banner joins the footer with square edges. */
+main.spain-page{padding-bottom:0}
+main.spain-page>.cta-banner{border-radius:0!important;box-shadow:none!important;margin-bottom:0!important}
+main.spain-page+.site-footer{margin-top:0}

@@ -25,7 +25,7 @@ Approved reference: Spain page as saved on 27 October 2026. Use this exact desig
 
 ## Layout and asset rules
 
-- Exactly 80px between section boxes at every viewport, controlled by the main flex gap. Remove competing outer margins rather than adding spacing.
+- Exactly 80px between section boxes at every viewport, controlled by the main flex gap. The closing CTA has square corners, no outer shadow, and joins the footer directly with zero gap. Remove competing outer margins rather than adding spacing.
 - Preserve responsive breakpoints and existing mobile stacking.
 - Preserve Kanit typography, navy headings, orange/gold gradients, rounded corners and icon dimensions.
 - Keep the existing `spain-page` CSS scope when cloning; it is a styling hook, not visible copy. Rename scope only if all corresponding selectors are migrated together.
