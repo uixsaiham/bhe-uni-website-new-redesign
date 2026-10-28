@@ -1,0 +1,30 @@
+/* Country flags sit behind the student photograph, with a consistent offset. */
+.spain-page .spain-hero-art {
+  box-sizing: border-box;
+  padding-top: 104px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.spain-page .spain-hero-art::before {
+  inset: 0 0 auto auto;
+  width: 70%;
+  height: 180px;
+  border-radius: 14px;
+  background: #fff var(--hero-country-flag) center / 100% 100% no-repeat;
+  transform: rotate(5deg);
+  box-shadow: 0 6px 22px #14295820;
+  z-index: -1;
+}
+.spain-page .spain-hero-art > img {
+  width: 92%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 38%;
+  border: 5px solid #fff;
+  border-radius: 23px;
+}
+@media (max-width: 767px) {
+  .spain-page .spain-hero-art { padding-top: 85px; }
+  .spain-page .spain-hero-art::before { height: 145px; }
+  .spain-page .spain-hero-art > img { height: 300px; }
+}

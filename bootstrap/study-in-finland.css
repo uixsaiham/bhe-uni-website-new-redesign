@@ -1,0 +1,12 @@
+/* Finland imagery; layout and section styles come from the approved country template. */
+.spain-page .hero-section::before {
+  background-image: linear-gradient(90deg,#fffcf7 0%,#fffcf7ed 34%,#fffcf7b8 65%,#fffcf770 100%),url("assets/finland/helsinki.jpg");
+}
+.spain-hero-art::before {
+  background: linear-gradient(transparent 42%,#003580 42% 62%,transparent 62%),linear-gradient(90deg,#fff 27%,#003580 27% 43%,#fff 43%);
+}
+@media(max-width:767px) {
+  .spain-page .hero-section::before {
+    background-image: linear-gradient(#fffcf7ef,#fffcf7b8),url("assets/finland/helsinki.jpg");
+  }
+}
